@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Our Courses on Sathvik Softech-Software development and training | hugo education template</title>
+    <link>/course/</link>
+    <description>Recent content in Our Courses on Sathvik Softech-Software development and training | hugo education template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2021, Sathvik Softech, Hubballi</copyright>
+    <lastBuildDate>Mon, 15 Mar 2021 15:27:17 +0600</lastBuildDate><atom:link href="/course/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python For Machine Learning</title>
+      <link>/course/python-programming/</link>
+      <pubDate>Mon, 15 Mar 2021 15:27:17 +0600</pubDate>
+      
+      <guid>/course/python-programming/</guid>
+      <description>Want to kickstart your coding career? Python is certainly one of the best languages to learn first. In this course you will start from being a noob to a python application builder in just 1 month</description>
+    </item>
+    
+    <item>
+      <title>Building cloud ready apps with Golang</title>
+      <link>/course/golang-programming/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      
+      <guid>/course/golang-programming/</guid>
+      <description>Go programming language is amongst the most popular languages these days. The only language with offers speed of C# and flexibility of C language. In this course we teach the Go programming language with web development in mind</description>
+    </item>
+    
+    <item>
+      <title>Data Structures and Algorithms through C</title>
+      <link>/course/algorithms-datastructures-course/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      
+      <guid>/course/algorithms-datastructures-course/</guid>
+      <description>Data structures and algorithms are fundamental to any software and we offer best data structures course in Hubli Dharwad region.</description>
+    </item>
+    
+    <item>
+      <title>Full Stack Web Development with MERN stack</title>
+      <link>/course/full-stack-development/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      
+      <guid>/course/full-stack-development/</guid>
+      <description>MySQL, ExpressJS, ReactJS and NodeJS are amongst the most popular technologies in the software industry right now.</description>
+    </item>
+    
+    <item>
+      <title>Java Application Programming</title>
+      <link>/course/java-programming/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      
+      <guid>/course/java-programming/</guid>
+      <description>Gain strong understanding of Object Oriented Programming through Java Programming language. Learn to build android apps in just one month</description>
+    </item>
+    
+    <item>
+      <title>Understanding programming through C Language</title>
+      <link>/course/c-programming-course/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      
+      <guid>/course/c-programming-course/</guid>
+      <description>Gain deep understanding of programming and computer working through this beginner C Programming course.</description>
+    </item>
+    
+    <item>
+      <title>Web Development with HTML, CSS and Javascript</title>
+      <link>/course/web-development/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      
+      <guid>/course/web-development/</guid>
+      <description>Want to learn web development hands-on through building games and apps? Join this course</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Our Courses on Sathvik Softech-Software development and training | hugo education template</title>
+    <link>/teacher/</link>
+    <description>Recent content in Our Courses on Sathvik Softech-Software development and training | hugo education template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2021, Sathvik Softech, Hubballi</copyright><atom:link href="/teacher/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chandan Anand Purohit</title>
+      <link>/teacher/chandan-purohit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/teacher/chandan-purohit/</guid>
+      <description>About Me Computer Science has emerged as the truly evergreen discipline in engineering.</description>
+    </item>
+    
+  </channel>
+</rss>
