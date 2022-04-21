@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Sathvik Softech-Software development and training | hugo education template</title>
-    <link>/categories/</link>
+    <link>https://www.sathviksoftech.in/categories/</link>
     <description>Recent content in Categories on Sathvik Softech-Software development and training | hugo education template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2021, Sathvik Softech, Hubballi</copyright>
-    <lastBuildDate>Mon, 06 Dec 2021 15:27:17 +0600</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Dec 2021 15:27:17 +0600</lastBuildDate><atom:link href="https://www.sathviksoftech.in/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Education</title>
-      <link>/categories/education/</link>
+      <link>https://www.sathviksoftech.in/categories/education/</link>
       <pubDate>Mon, 06 Dec 2021 15:27:17 +0600</pubDate>
       
-      <guid>/categories/education/</guid>
+      <guid>https://www.sathviksoftech.in/categories/education/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Development</title>
-      <link>/categories/web-development/</link>
+      <link>https://www.sathviksoftech.in/categories/web-development/</link>
       <pubDate>Fri, 06 Aug 2021 15:27:17 +0600</pubDate>
       
-      <guid>/categories/web-development/</guid>
+      <guid>https://www.sathviksoftech.in/categories/web-development/</guid>
       <description></description>
     </item>
     
