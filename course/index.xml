@@ -10,11 +10,11 @@
     <lastBuildDate>Mon, 15 Mar 2021 15:27:17 +0600</lastBuildDate><atom:link href="https://www.sathviksoftech.in/course/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python For Machine Learning</title>
-      <link>https://www.sathviksoftech.in/course/python-programming/</link>
+      <link>https://www.sathviksoftech.in/course/python-programming-course/</link>
       <pubDate>Mon, 15 Mar 2021 15:27:17 +0600</pubDate>
       
-      <guid>https://www.sathviksoftech.in/course/python-programming/</guid>
-      <description>Want to kickstart your coding career? Python is certainly one of the best languages to learn first. In this course you will start from being a noob to a python application builder in just 1 month</description>
+      <guid>https://www.sathviksoftech.in/course/python-programming-course/</guid>
+      <description>Improve programming skills through live coding solution for programming puzzles and application development</description>
     </item>
     
     <item>
@@ -24,6 +24,15 @@
       
       <guid>https://www.sathviksoftech.in/course/golang-programming/</guid>
       <description>Go programming language is amongst the most popular languages these days. The only language with offers speed of C# and flexibility of C language. In this course we teach the Go programming language with web development in mind</description>
+    </item>
+    
+    <item>
+      <title>C Programming - zero to hero</title>
+      <link>https://www.sathviksoftech.in/course/c-programming-course/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      
+      <guid>https://www.sathviksoftech.in/course/c-programming-course/</guid>
+      <description>Gain deep understanding of programming and computer working through this beginner C Programming course.</description>
     </item>
     
     <item>
@@ -46,28 +55,19 @@
     
     <item>
       <title>Java Application Programming</title>
-      <link>https://www.sathviksoftech.in/course/java-programming/</link>
+      <link>https://www.sathviksoftech.in/course/java-programming-course/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
       
-      <guid>https://www.sathviksoftech.in/course/java-programming/</guid>
+      <guid>https://www.sathviksoftech.in/course/java-programming-course/</guid>
       <description>Gain strong understanding of Object Oriented Programming through Java Programming language. Learn to build android apps in just one month</description>
     </item>
     
     <item>
-      <title>Understanding programming through C Language</title>
-      <link>https://www.sathviksoftech.in/course/c-programming-course/</link>
+      <title>Web Development course in Hubli with HTML, CSS and Javascript</title>
+      <link>https://www.sathviksoftech.in/course/web-development-course/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
       
-      <guid>https://www.sathviksoftech.in/course/c-programming-course/</guid>
-      <description>Gain deep understanding of programming and computer working through this beginner C Programming course.</description>
-    </item>
-    
-    <item>
-      <title>Web Development with HTML, CSS and Javascript</title>
-      <link>https://www.sathviksoftech.in/course/web-development/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      
-      <guid>https://www.sathviksoftech.in/course/web-development/</guid>
+      <guid>https://www.sathviksoftech.in/course/web-development-course/</guid>
       <description>Want to learn web development hands-on through building games and apps? Join this course</description>
     </item>
     

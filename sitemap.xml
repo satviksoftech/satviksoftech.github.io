@@ -65,10 +65,13 @@
     <loc>https://www.sathviksoftech.in/course/</loc>
     <lastmod>2021-03-15T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>https://www.sathviksoftech.in/course/python-programming/</loc>
+    <loc>https://www.sathviksoftech.in/course/python-programming-course/</loc>
     <lastmod>2021-03-15T15:27:17+06:00</lastmod>
   </url><url>
     <loc>https://www.sathviksoftech.in/course/golang-programming/</loc>
+    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+  </url><url>
+    <loc>https://www.sathviksoftech.in/course/c-programming-course/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
     <loc>https://www.sathviksoftech.in/course/algorithms-datastructures-course/</loc>
@@ -95,7 +98,7 @@
     <loc>https://www.sathviksoftech.in/research/research-6/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>https://www.sathviksoftech.in/course/java-programming/</loc>
+    <loc>https://www.sathviksoftech.in/course/java-programming-course/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
     <loc>https://www.sathviksoftech.in/notice/</loc>
@@ -122,10 +125,7 @@
     <loc>https://www.sathviksoftech.in/notice/notice-6/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>https://www.sathviksoftech.in/course/c-programming-course/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-  </url><url>
-    <loc>https://www.sathviksoftech.in/course/web-development/</loc>
+    <loc>https://www.sathviksoftech.in/course/web-development-course/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
     <loc>https://www.sathviksoftech.in/client/client-1/</loc>
