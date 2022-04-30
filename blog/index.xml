@@ -2,54 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Latest News on Sathvik Softech-Software development and training | hugo education template</title>
-    <link>https://www.sathviksoftech.in/blog/</link>
+    <link>https://satviksoftech.github.io/blog/</link>
     <description>Recent content in Latest News on Sathvik Softech-Software development and training | hugo education template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2021, Sathvik Softech, Hubballi</copyright>
-    <lastBuildDate>Mon, 06 Dec 2021 15:27:17 +0600</lastBuildDate><atom:link href="https://www.sathviksoftech.in/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Dec 2021 15:27:17 +0600</lastBuildDate><atom:link href="https://satviksoftech.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Which is the best language to learn coding?</title>
-      <link>https://www.sathviksoftech.in/blog/best-language-to-learn-coding/</link>
+      <link>https://satviksoftech.github.io/blog/best-language-to-learn-coding/</link>
       <pubDate>Mon, 06 Dec 2021 15:27:17 +0600</pubDate>
       
-      <guid>https://www.sathviksoftech.in/blog/best-language-to-learn-coding/</guid>
+      <guid>https://satviksoftech.github.io/blog/best-language-to-learn-coding/</guid>
       <description>What is coding or programming? It is interesting that though many people talk about coding/programming nowadays, very few actually delve into this very fundamental question.</description>
     </item>
     
     <item>
       <title>Everything wrong with current education system in India and it seems it is too late to correct</title>
-      <link>https://www.sathviksoftech.in/blog/engineering-education/</link>
+      <link>https://satviksoftech.github.io/blog/engineering-education/</link>
       <pubDate>Mon, 16 Aug 2021 15:27:17 +0600</pubDate>
       
-      <guid>https://www.sathviksoftech.in/blog/engineering-education/</guid>
+      <guid>https://satviksoftech.github.io/blog/engineering-education/</guid>
       <description>What is the purpose of education? The purpose of education to make kids knowledgeable with facts, equip them to rationally think and apply the facts to solve real world problems.</description>
     </item>
     
     <item>
       <title>Building a simple web application using Flask</title>
-      <link>https://www.sathviksoftech.in/blog/python-flask-web-app/</link>
+      <link>https://satviksoftech.github.io/blog/python-flask-web-app/</link>
       <pubDate>Fri, 06 Aug 2021 15:27:17 +0600</pubDate>
       
-      <guid>https://www.sathviksoftech.in/blog/python-flask-web-app/</guid>
+      <guid>https://satviksoftech.github.io/blog/python-flask-web-app/</guid>
       <description>What is Flask? Flask is a very popular &amp;ldquo;micro&amp;rdquo; web development framework built with Python.</description>
     </item>
     
     <item>
       <title>Formatting numbers according to Indian Locale in Javascript and Python</title>
-      <link>https://www.sathviksoftech.in/blog/number-locale-format/</link>
+      <link>https://satviksoftech.github.io/blog/number-locale-format/</link>
       <pubDate>Fri, 06 Aug 2021 15:27:17 +0600</pubDate>
       
-      <guid>https://www.sathviksoftech.in/blog/number-locale-format/</guid>
+      <guid>https://satviksoftech.github.io/blog/number-locale-format/</guid>
       <description>I came across this problem while building an app recently and thought it might be interesting to share.</description>
     </item>
     
     <item>
       <title>Cool project ideas for computer science - 2021</title>
-      <link>https://www.sathviksoftech.in/blog/project-ideas-computer-science-2021/</link>
+      <link>https://satviksoftech.github.io/blog/project-ideas-computer-science-2021/</link>
       <pubDate>Tue, 06 Jul 2021 15:27:17 +0600</pubDate>
       
-      <guid>https://www.sathviksoftech.in/blog/project-ideas-computer-science-2021/</guid>
+      <guid>https://satviksoftech.github.io/blog/project-ideas-computer-science-2021/</guid>
       <description>Hi everyone! Here are some nice project ideas for those of you who want to implement projects and showcase in your college especially for final year computer science students.</description>
     </item>
     

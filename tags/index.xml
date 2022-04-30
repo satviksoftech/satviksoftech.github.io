@@ -2,72 +2,72 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sathvik Softech-Software development and training | hugo education template</title>
-    <link>https://www.sathviksoftech.in/tags/</link>
+    <link>https://satviksoftech.github.io/tags/</link>
     <description>Recent content in Tags on Sathvik Softech-Software development and training | hugo education template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2021, Sathvik Softech, Hubballi</copyright>
-    <lastBuildDate>Mon, 06 Dec 2021 15:27:17 +0600</lastBuildDate><atom:link href="https://www.sathviksoftech.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Dec 2021 15:27:17 +0600</lastBuildDate><atom:link href="https://satviksoftech.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Programming</title>
-      <link>https://www.sathviksoftech.in/tags/programming/</link>
+      <link>https://satviksoftech.github.io/tags/programming/</link>
       <pubDate>Mon, 06 Dec 2021 15:27:17 +0600</pubDate>
       
-      <guid>https://www.sathviksoftech.in/tags/programming/</guid>
+      <guid>https://satviksoftech.github.io/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://www.sathviksoftech.in/tags/python/</link>
+      <link>https://satviksoftech.github.io/tags/python/</link>
       <pubDate>Mon, 06 Dec 2021 15:27:17 +0600</pubDate>
       
-      <guid>https://www.sathviksoftech.in/tags/python/</guid>
+      <guid>https://satviksoftech.github.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Education</title>
-      <link>https://www.sathviksoftech.in/tags/education/</link>
+      <link>https://satviksoftech.github.io/tags/education/</link>
       <pubDate>Mon, 16 Aug 2021 15:27:17 +0600</pubDate>
       
-      <guid>https://www.sathviksoftech.in/tags/education/</guid>
+      <guid>https://satviksoftech.github.io/tags/education/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Flask</title>
-      <link>https://www.sathviksoftech.in/tags/flask/</link>
+      <link>https://satviksoftech.github.io/tags/flask/</link>
       <pubDate>Fri, 06 Aug 2021 15:27:17 +0600</pubDate>
       
-      <guid>https://www.sathviksoftech.in/tags/flask/</guid>
+      <guid>https://satviksoftech.github.io/tags/flask/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>https://www.sathviksoftech.in/tags/javascript/</link>
+      <link>https://satviksoftech.github.io/tags/javascript/</link>
       <pubDate>Fri, 06 Aug 2021 15:27:17 +0600</pubDate>
       
-      <guid>https://www.sathviksoftech.in/tags/javascript/</guid>
+      <guid>https://satviksoftech.github.io/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>String formatting</title>
-      <link>https://www.sathviksoftech.in/tags/string-formatting/</link>
+      <link>https://satviksoftech.github.io/tags/string-formatting/</link>
       <pubDate>Fri, 06 Aug 2021 15:27:17 +0600</pubDate>
       
-      <guid>https://www.sathviksoftech.in/tags/string-formatting/</guid>
+      <guid>https://satviksoftech.github.io/tags/string-formatting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Development</title>
-      <link>https://www.sathviksoftech.in/tags/web-development/</link>
+      <link>https://satviksoftech.github.io/tags/web-development/</link>
       <pubDate>Fri, 06 Aug 2021 15:27:17 +0600</pubDate>
       
-      <guid>https://www.sathviksoftech.in/tags/web-development/</guid>
+      <guid>https://satviksoftech.github.io/tags/web-development/</guid>
       <description></description>
     </item>
     
