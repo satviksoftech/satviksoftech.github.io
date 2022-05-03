@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Web Development on Sathvik Softech-Software development and training | hugo education template</title>
-    <link>https://satviksoftech.github.io/tags/web-development/</link>
-    <description>Recent content in Web Development on Sathvik Softech-Software development and training | hugo education template</description>
+    <title>Web Development on Sathvik Softech-Software development and training | Built with Hugo</title>
+    <link>https://sathviksoftech.in/tags/web-development/</link>
+    <description>Recent content in Web Development on Sathvik Softech-Software development and training | Built with Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2021, Sathvik Softech, Hubballi</copyright>
-    <lastBuildDate>Fri, 06 Aug 2021 15:27:17 +0600</lastBuildDate><atom:link href="https://satviksoftech.github.io/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Aug 2021 15:27:17 +0600</lastBuildDate><atom:link href="https://sathviksoftech.in/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building a simple web application using Flask</title>
-      <link>https://satviksoftech.github.io/blog/python-flask-web-app/</link>
+      <link>https://sathviksoftech.in/blog/python-flask-web-app/</link>
       <pubDate>Fri, 06 Aug 2021 15:27:17 +0600</pubDate>
       
-      <guid>https://satviksoftech.github.io/blog/python-flask-web-app/</guid>
+      <guid>https://sathviksoftech.in/blog/python-flask-web-app/</guid>
       <description>What is Flask? Flask is a very popular &amp;ldquo;micro&amp;rdquo; web development framework built with Python.</description>
     </item>
     
     <item>
       <title>Formatting numbers according to Indian Locale in Javascript and Python</title>
-      <link>https://satviksoftech.github.io/blog/number-locale-format/</link>
+      <link>https://sathviksoftech.in/blog/number-locale-format/</link>
       <pubDate>Fri, 06 Aug 2021 15:27:17 +0600</pubDate>
       
-      <guid>https://satviksoftech.github.io/blog/number-locale-format/</guid>
+      <guid>https://sathviksoftech.in/blog/number-locale-format/</guid>
       <description>I came across this problem while building an app recently and thought it might be interesting to share.</description>
     </item>
     
     <item>
       <title>Cool project ideas for computer science - 2021</title>
-      <link>https://satviksoftech.github.io/blog/project-ideas-computer-science-2021/</link>
+      <link>https://sathviksoftech.in/blog/project-ideas-computer-science-2021/</link>
       <pubDate>Tue, 06 Jul 2021 15:27:17 +0600</pubDate>
       
-      <guid>https://satviksoftech.github.io/blog/project-ideas-computer-science-2021/</guid>
+      <guid>https://sathviksoftech.in/blog/project-ideas-computer-science-2021/</guid>
       <description>Hi everyone! Here are some nice project ideas for those of you who want to implement projects and showcase in your college especially for final year computer science students.</description>
     </item>
     

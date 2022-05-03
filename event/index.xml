@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Our Courses on Sathvik Softech-Software development and training | hugo education template</title>
-    <link>https://satviksoftech.github.io/event/</link>
-    <description>Recent content in Our Courses on Sathvik Softech-Software development and training | hugo education template</description>
+    <title>Our Courses on Sathvik Softech-Software development and training | Built with Hugo</title>
+    <link>https://sathviksoftech.in/event/</link>
+    <description>Recent content in Our Courses on Sathvik Softech-Software development and training | Built with Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2021, Sathvik Softech, Hubballi</copyright>
-    <lastBuildDate>Sun, 01 Aug 2021 15:27:17 +0600</lastBuildDate><atom:link href="https://satviksoftech.github.io/event/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Aug 2021 15:27:17 +0600</lastBuildDate><atom:link href="https://sathviksoftech.in/event/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python for Machine Learning Internship Programme - 2021</title>
-      <link>https://satviksoftech.github.io/event/event-1/</link>
+      <link>https://sathviksoftech.in/event/event-1/</link>
       <pubDate>Sun, 01 Aug 2021 15:27:17 +0600</pubDate>
       
-      <guid>https://satviksoftech.github.io/event/event-1/</guid>
+      <guid>https://sathviksoftech.in/event/event-1/</guid>
       <description>About Event At Sathvik Softech we had organized 1 month internship programme on Python for Machine Learning for final year VTU students in collaboration with Samarth Meditech Pvt.</description>
     </item>
     
