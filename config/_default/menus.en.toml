@@ -1,0 +1,44 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+pageRef = "/"
+weight = 1
+
+[[main]]
+name = "Courses"
+pageRef = "/course"
+weight = 2
+
+[[main]]
+name = "Internship"
+pageRef = "/internships"
+weight = 3
+
+[[main]]
+weight = 4
+name = "Blog"
+pageRef = "/blog"
+
+[[main]]
+weight = 5
+name = "About"
+pageRef = "/about"
+
+
+# footer menu
+[[footer]]
+name = "About"
+pageRef = "/about"
+weight = 1
+
+[[footer]]
+name = "Elements"
+pageRef = "/elements"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+pageRef = "/privacy-policy"
+weight = 3

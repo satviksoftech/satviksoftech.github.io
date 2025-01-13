@@ -1,0 +1,225 @@
+{{ define "main" }}
+
+<!-- events -->
+{{ $image :=  resources.Get "images/intern.jpg" }}
+
+<section class=" bg-primary" >
+  <div class="container">
+    <div class="row flex-wrap ">
+      <div class="col-12 md:col-8" style="padding:3.5rem 1rem">
+        <h1 class="text-white mb-8">{{ .Title | markdownify }}</h1>
+        <p class="text-h5 text-white text-justify">{{.Description | markdownify }}</p>
+      </div>
+      <div class="col-4 hidden md:block">
+        <img src="{{  $image.Permalink  }}" class=" clip-custom" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container section text-primary">
+    <h2 class="text-h2 text-center uppercase">
+      <span class="text-orange-400">sathvik internship</span> programme
+    </h2>
+    <h3 class="text-h4 text-center">In Collaboration with Samarth Meditech Pvt. Ltd.</h3>
+    <p class="text-primary text-h6 mt-4 text-justify">
+      At Sathvik Softech, we offer internships across wide range of domains, targeting wide variety of learners from college students to graduates. 
+      Our internship programmes focus on skill building and amplifying the employability of participants through hands-on training sessions. 
+      We believe in offering highest quality training backed up by industrial project exposure and decent stipend for worthy candidates. 
+      Here are some of the benifits you will get if you join our internship programme
+    </p>
+    <div class="row flex-wrap">
+      <div class="col-12 md:col-6 relative mb-4 pl-6">
+          <!-- Card -->
+        <div class="block border-l-4 border-orange-400 bg-white shadow-md dark:bg-neutral-700 text-center">
+
+          <!-- Card body -->
+          <div class="p-4">
+            <!-- Title -->
+            <h5 class="mb-2 text-xl font-bold tracking-wide text-neutral-800 dark:text-neutral-50 text-left">
+            <i class="ph-duotone ph-check-circle" style="color:#48eb48; "></i>
+              Real project work experience
+            </h5>
+
+            <!-- Text -->
+            <!-- <p class="mb-2 text-base text-neutral-500 dark:text-neutral-300">
+            </p> -->
+
+
+          </div>
+
+        </div>
+<!-- Card -->
+      </div>
+      <div class="col-12 md:col-6 relative mb-4 pl-6">
+        <!-- Card -->
+      <div class="block border-l-4 border-orange-400 bg-white shadow-md dark:bg-neutral-700 text-center">
+
+        <!-- Card body -->
+        <div class="p-4">
+          <!-- Title -->
+          <h5 class="mb-2 text-xl font-bold tracking-wide text-neutral-800 dark:text-neutral-50 text-left">
+          <i class="ph-duotone ph-check-circle" style="color:#48eb48;"></i>
+            Hands-on training from industry experts
+          </h5>
+
+          <!-- Text -->
+          <!-- <p class="mb-2 text-base text-neutral-500 dark:text-neutral-300">
+          </p> -->
+
+
+        </div>
+
+      </div>
+<!-- Card -->
+    </div>
+    <div class="col-12 md:col-6 relative mb-4 pl-6">
+      <!-- Card -->
+    <div class="block border-l-4 border-orange-400 bg-white shadow-md dark:bg-neutral-700 text-center">
+
+      <!-- Card body -->
+      <div class="p-4">
+        <!-- Title -->
+        <h5 class="mb-2 text-xl font-bold tracking-wide text-neutral-800 dark:text-neutral-50 text-left">
+        <i class="ph-duotone ph-check-circle" style="color:#48eb48; "></i>
+          Interaction with industry experts
+        </h5>
+
+        <!-- Text -->
+        <!-- <p class="mb-2 text-base text-neutral-500 dark:text-neutral-300">
+        </p> -->
+
+
+      </div>
+
+    </div>
+<!-- Card -->
+  </div>
+  <div class="col-12 md:col-6 relative mb-4 pl-6">
+    <!-- Card -->
+  <div class="block border-l-4 border-orange-400 bg-white shadow-md dark:bg-neutral-700 text-center">
+
+    <!-- Card body -->
+    <div class="p-4">
+      <!-- Title -->
+      <h5 class="mb-2 text-xl font-bold tracking-wide text-neutral-800 dark:text-neutral-50 text-left">
+      <i class="ph-duotone ph-check-circle" style="color:#48eb48; "></i>
+      Gain Insight into Corporate Ecosystem
+      </h5>
+
+      <!-- Text -->
+      <!-- <p class="mb-2 text-base text-neutral-500 dark:text-neutral-300">
+      </p> -->
+
+
+    </div>
+
+  </div>
+<!-- Card -->
+</div>
+<div class="col-12 md:col-6 relative mb-4 pl-6">
+  <!-- Card -->
+<div class="block border-l-4 border-orange-400 bg-white shadow-md dark:bg-neutral-700 text-center">
+
+  <!-- Card body -->
+  <div class="p-4">
+    <!-- Title -->
+    <h5 class="mb-2 text-xl tracking-wide text-neutral-800 dark:text-neutral-50 text-left">
+    <i class="ph-duotone ph-check-circle" style="color:#48eb48; "></i>
+    Team-Driven Learning Experience
+    </h5>
+
+    <!-- Text -->
+    <!-- <p class="mb-2 text-base text-neutral-500 dark:text-neutral-300">
+    </p> -->
+
+
+  </div>
+
+</div>
+<!-- Card -->
+</div>
+<div class="col-12 md:col-6 relative mb-4 pl-6">
+  <!-- Card -->
+<div class="block border-l-4 border-orange-400 bg-white shadow-md dark:bg-neutral-700 text-center">
+
+  <!-- Card body -->
+  <div class="p-4">
+    <!-- Title -->
+    <h5 class="mb-2 text-xl font-bold tracking-wide text-neutral-800 dark:text-neutral-50 text-left">
+    <i class="ph-duotone ph-check-circle" style="color:#48eb48; "></i>
+      Eligibility for placement opportunities
+    </h5>
+
+    <!-- Text -->
+    <!-- <p class="mb-2 text-base text-neutral-500 dark:text-neutral-300">
+    </p> -->
+
+
+  </div>
+
+</div>
+<!-- Card -->
+</div>
+      <div class="col-12 md:col-3"></div>
+      <div class="col-12 md:col-3"></div>
+      <div class="col-12 md:col-3"></div>
+    </div>
+
+
+  </div>
+
+</section>
+<!-- /events -->
+<section class="bg-primary pb-9">
+  <div class="container  text-white ">
+    <h2 class="text-h2 py-5 text-center uppercase text-white">
+      <span class="text-orange-400">Internship Domains</span> Available
+    </h2>
+    <div class="row flex-wrap">
+      <div class="col-12 md:col-4">
+        <h5 class="mb-2 text-xl font-bold tracking-wide text-white dark:text-neutral-50 text-left">
+          <i class="ph-duotone ph-paper-plane-right" style="color:#48eb48;"></i>
+          Cloud Computing (AWS)  
+        </h5>
+      </div>
+
+      <div class="col-12 md:col-4">
+        <h5 class="mb-2 text-xl font-bold tracking-wide text-white dark:text-neutral-50 text-left">
+          <i class="ph-duotone ph-paper-plane-right" style="color:#48eb48;"></i>
+          Devops CI/CD  
+        </h5>
+      </div>
+
+      <div class="col-12 md:col-4">
+        <h5 class="mb-2 text-xl font-bold tracking-wide text-white dark:text-neutral-50 text-left">
+          <i class="ph-duotone ph-paper-plane-right" style="color:#48eb48;"></i>
+          Cyber Security / Penetration testing  
+        </h5>
+      </div>
+
+      <div class="col-12 md:col-4">
+        <h5 class="mb-2 text-xl font-bold tracking-wide text-white dark:text-neutral-50 text-left">
+          <i class="ph-duotone ph-paper-plane-right" style="color:#48eb48;"></i>
+          Embedded and Kernel Development 
+        </h5>
+      </div>
+
+      <div class="col-12 md:col-4">
+        <h5 class="mb-2 text-xl font-bold tracking-wide text-white dark:text-neutral-50 text-left">
+          <i class="ph-duotone ph-paper-plane-right" style="color:#48eb48;"></i>
+          Artificial Intelligence (AI)   
+        </h5>
+      </div>
+      <div class="col-12 md:col-4">
+        <h5 class="mb-2 text-xl font-bold tracking-wide text-white dark:text-neutral-50 text-left">
+          <i class="ph-duotone ph-paper-plane-right" style="color:#48eb48;"></i>
+          Data Engineering 
+        </h5>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+{{ end }} 

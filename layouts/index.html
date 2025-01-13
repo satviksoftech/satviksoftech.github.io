@@ -1,0 +1,194 @@
+{{ define "main" }}
+  <!-- Banner -->
+
+  {{ with .Params.banner }}
+    <section class="section pt-14 bg-gradient-to-tr">
+      <div class="container">
+        <div class="row justify-center flex-wrap">
+          <div class="md:col-6  mb-8 text-center">
+            <h1 class="mb-4 text-h1 lg:text-h1">
+              {{ .title }}<span class="text-orange-400">HANDS ON</span>
+            </h1>
+            <p class="mb-8 text-h6">
+              {{ .content | markdownify }}
+            </p>
+            {{ with .button }}
+              {{ if .enable }}
+                <a
+                  class="btn btn-primary"
+                  href="{{ .link | absURL }}"
+                  {{ if strings.HasPrefix .link `http` }}
+                    target="_blank" rel="noopener"
+                  {{ end }}>
+                  {{ .label }}
+                  <i class="fa fa-arrow-right pl-2"></i>
+                </a>
+              {{ end }}
+            {{ end }}
+          </div>
+          <div class="md:col-6 relative" style="min-height:300px">
+            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "coder mx-auto absolute lg:!max-w-[600px] z-10" "DisplayXL" "800x" ) }}
+            <div class="pathed bg-green-200 flex justify-center items-center" style="offset-path: path('M300,300 L100,100');">
+              <!-- <h6>AWS</h6> -->
+              <i class="ph-duotone ph-open-ai-logo" style="font-size:5em; color:indigo"></i>
+            </div>
+            <div class="pathed bg-green-200 flex justify-center items-center " style="offset-path: path('M300,300 L300,20');">
+              <i class="ph-duotone ph-codepen-logo" style="font-size:5em; color:indigo"></i>
+            </div>            
+            
+            <div class="pathed bg-green-200 flex justify-center items-center " style="offset-path: path('M300,300 L500,80');">
+              <i class="ph-duotone ph-atom" style="font-size:5em; color:indigo"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Banner -->
+
+  <!-- Features -->
+  {{ range $i, $e:= .Params.features }}
+    <section class="section-sm bg-primary">
+      <div class="container relative hero ">
+        <div class="py-8 md:absolute row items-center justify-between rounded bg-white shadow shadow-blue-700 dark:bg-neutral-700 " style="top:-130px;">
+          <!-- <div
+            class="mb:md-0 {{ if not (modBool $i 2) }}
+              md:order-2
+            {{ end }} md:col-5 mb-6">
+            {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+          </div> -->
+          <div
+            class="{{ if not (modBool $i 2) }}
+              md:order-1
+            {{ end }} ">
+            <h2 class="mb-4 text-center text-h2 ">
+              {{ .title | markdownify }}
+            </h2>
+            <p class="mb-8 text-lg text-center ">
+              {{ .content | markdownify }}
+            </p>
+            <ul class="row">
+              {{ range .bulletpoints }}
+                <li class="md:col-4 sm:col-12 relative mb-4 pl-6">
+                  <!-- Card -->
+                <div class="block rounded-2xl bg-white shadow-md dark:bg-neutral-700 text-center">
+
+                  <!-- Card image -->
+                  <div>
+                    <i class="  {{ .icon }}" style="color:#222222; font-size:5em"></i>
+                  </div>
+
+                  <!-- Card body -->
+                  <div class="p-6">
+
+                    <!-- Title -->
+                    <h5 class="mb-2 text-xl font-bold tracking-wide text-neutral-800 dark:text-neutral-50">
+                      {{.title | markdownify}}
+                    </h5>
+
+                    <!-- Text -->
+                    <p class="mb-2 text-base text-neutral-500 dark:text-neutral-300">
+                      {{ .description | markdownify }}
+                    </p>
+
+
+                  </div>
+
+                </div>
+        <!-- Card -->
+                </li>
+              {{ end }}
+            </ul>
+            {{ with .button }}
+              {{ if .enable }}
+                <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
+                  {{ .label }}
+                  <i class="fa fa-arrow-right pl-2"></i>
+                </a>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Features -->
+
+  <!-- Courses section--> 
+  <section class="section-sm ">
+    <div class="container">
+      <h2 class="mb-4 text-center text-h2">
+        {{ .Params.coursessection.title | markdownify }}
+      </h2>
+      <p class="mb-8 text-lg text-primary">
+        {{ .Params.coursessection.description | markdownify }}
+      </p>
+
+      <div class="row justify-between">
+      {{ range $i, $e:= .Params.courses }}
+
+        <div class="md:col-6 lg:col-4 mb-1">
+          {{ partial "components/course-card" . }}
+        </div>
+      {{ end }}
+
+      </div>
+    </div>
+  </section>
+<!-- /Courses -->
+
+  <!-- Testimonials -->
+      <section class="section">
+        <div class="container">
+          <div class="row flex-wrap">
+            <div class="md:col-12 lg:col-8  mx-auto mb-12 text-center">
+              {{ range .Params.reviewsection }}
+              <h2 class="mb-4">
+                {{ .title | markdownify }}
+              </h2>
+              <p>
+                {{ .description | markdownify }}
+              </p>
+              {{ end }}
+            </div>
+            <div class="col-12">
+              <div>
+                <div class="row sm:flex-wrap">
+                  {{ range .Params.testimonials }}
+                    <div class="md:col-4 bg-white relative shadow-md ">
+                      <div class="absolute avatar left-3 -top-5 flex">
+                        <i class="ph-duotone ph-coins" style="color:#f1951c; font-size:5em"></i>
+                        <h6 class="text-h4 text-orange-400">{{.salary}}</h6>
+
+                      </div>
+                      <div
+                        class=" dark:bg-darkmode-theme-light rounded-lg px-7 py-5 ">
+ 
+                        <blockquote class="mt-8">
+                          {{ .content | markdownify }}
+                        </blockquote>
+                        <div class="mt-11 flex items-center">
+                          <div class="text-dark dark:text-white">
+                            {{ partial "image" (dict "Src" .avatar "Size" "50x50" "Class" "rounded-full" "Alt" .name) }}
+                          </div>
+                          <div class="ml-4">
+                            <h3 class="h5 font-primary font-semibold">
+                              {{ .name }}
+                            </h3>
+                            <p class="text-dark dark:text-white">
+                              {{ .company | markdownify }}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  {{ end }}
+                </div>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+  <!-- /Testimonials -->
+{{ end }}

@@ -1,0 +1,137 @@
+{{ define "main" }}
+
+<section class="">
+  <div class="container pt-4">
+    <div class="row">
+      <div class="col-12 md:col-4 mb-1 bg-primary " >
+        <!-- course thumb -->
+        <img style="width: 100%;" src="{{ .Params.image | relURL }}"
+          class="img-fluid w-100">
+      </div>
+    <!-- course info -->
+    <!-- <div class="row align-items-center mb-5"> -->
+      <div class="col-12 order-1 sm:col-6 mb-1 ">
+        <div class="row">
+          <div class="col-12">
+            <h1>{{ .Title }}</h1>
+            <div class="text-left">
+              <i class="ph-duotone ph-clock" style="color:#0c0a06; font-size:5em"></i>
+              <h6 class="mb-0 text-h5">{{ "duration" | upper }}</h6>
+              <p class="text-h6"> {{ .Params.Duration }}</p>
+            </div>
+            <div class="text-left">
+              <h6 class="mb-0 text-h5">{{  "weekly" | upper }}</h6>
+              <p class="text-h6"> {{ .Params.Weekly }}</p>
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="row mt-3">
+          <div class="col-12 md:col-3 text-justify mb-4 ">
+            <button class="btn btn-primary applyBtn" data-name="{{ .Title }}" data-toggle="modal" data-target="#registerModal">apply now</button>
+          </div>
+        </div>
+      </div>
+      <!-- border -->
+      <div class="col-12  order-4">
+        <div class="border-bottom border-primary"></div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<!-- section -->
+<section >
+  <div class="container">
+    <div class="row">
+      <div class="col-12  p-2">
+        <h3 class="text-h2 text-orange-400 text-center py-5">Course Summary</h3>
+        <p class="md:text-h6 text-justify p-2">
+          {{ .Params.about }}
+        </p>
+      </div>
+    </div>
+    <div class="row flex-wrap">
+      {{ range .Params.syllabus }}
+      <div class="col-12 md:col-4 card mt-2 shadow p-4">
+        
+        <div class="card-body">
+          <div class="card-title bg-orange-400 py-3">
+            <h5 class="text-h5 text-center text-white">{{ .heading }}</h5>
+          </div>
+          <div class="card-text text-h6">
+            <ul>
+              {{ range .content }}
+              <li>
+              <i class="ph-duotone ph-paper-plane-right" style="color:#0c0a06; "></i>
+                
+                {{ .line }}
+              </li>
+              {{ end }}
+            </ul>
+  
+          </div>
+                    
+        </div>
+            
+      </div>
+      {{ end }}     
+
+    </div>
+  
+    <!-- course details -->
+    <div class="row">
+      <div class="col-12 text-h6 mb-4 content">
+        {{ .Content }}
+      </div>
+      <!-- teacher -->
+      <div class="col-12">
+        {{ range where site.RegularPages "Title" (.Params.Teacher | title) }}
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+          <div class="media mb-2 mb-sm-0 align-items-center">
+            <img class="mr-4 img-fluid teacher-thumb-sm" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+            <div class="media-body">
+              <h4 class="mt-0"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+              <p>{{ .Params.bio }}</p>
+            </div>
+          </div>
+          <div class="social-link">
+            <h6 class="d-none d-sm-block text-right">{{ i18n "contact_info" }}</h6>
+            <ul class="list-inline">
+              {{ range .Params.Contact }}
+              <li class="list-inline-item"><a class="d-inline-block text-light p-1" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+        {{ end }}
+        <div class="border-bottom border-primary mt-4"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /section -->
+
+<!-- related course -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="section-title">{{ i18n "related_course" }}</h1>
+      </div>
+    </div>
+    <div class="row">
+      <!-- course item -->
+      {{ $related := (where site.RegularPages "Type" "course") | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) | shuffle | first 3}}
+      {{ range first 3 $related }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        {{ .Render "course"}}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /related course -->
+{{ end }}

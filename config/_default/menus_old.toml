@@ -1,0 +1,26 @@
+
+#[[main]]
+parent = "Pages"
+name = "Blog"
+pageRef = "/blog"
+
+[[main]]
+parent = "Pages"
+name = "Contact"
+pageRef = "/contact"
+
+[[main]]
+parent = "Pages"
+name = "Authors"
+pageRef = "/authors"
+
+[[main]]
+parent = "Pages"
+name = "Categories"
+pageRef = "/categories"
+
+[[main]]
+parent = "Pages"
+name = "404 Page"
+pageRef = "/404"
+
