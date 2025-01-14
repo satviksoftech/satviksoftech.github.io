@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -15,9 +15,9 @@ jobs:
   build:
     runs-on: ubuntu-22.04 
     env:
-      HUGO_VERSION: 0.121.0
+      HUGO_VERSION: 0.128.0
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -40,10 +40,14 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.6.0
         with:
-          hugo-version: '0.121.0'
+          hugo-version: '0.128.0'
           extended: true
 
       - name: Build with Hugo
+
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENVIRONMENT: production
         run: |
           hugo \
             --gc \
@@ -51,10 +55,10 @@ jobs:
             --templateMetrics \
             --templateMetricsHints \
             --forceSyncStatic \
-            --baseURL "https://satviksoftech.github.io/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with: 
           path: ./public
 
@@ -66,7 +70,8 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: actions/deploy-pages@v4
+        id: deployment
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
