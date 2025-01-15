@@ -6,9 +6,9 @@ draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "MySQL, ExpressJS, ReactJS and NodeJS are amongst the most popular technologies in the software industry right now.We offer best full stack course in Hubli Dharwad region"
+description : "MySQL/MongoDB, ExpressJS, ReactJS and NodeJS are amongst the most popular technologies in the software industry right now.We offer best full stack course in Hubli Dharwad region"
 keywords : "full stack course in hubli dharwad, full stack training in hubli dharwad, full stack institutes in hubli dharwad, full stack classes in hubli dharwad, full stack course fees in hubli dharwad, full stack training centers in hubli dharwad, full stack training course in hubli dharwad, full stack training institutes in hubli dharwad, full stack training classes in hubli dharwad, full stack coaching classes in hubli dharwad, full stack certification course in hubli dharwad, full stack training and placement in hubli dharwad, classes for full stack course in hubli dharwad, best institute for full stack course in hubli dharwad, full stack course in hubli dharwad with 100% job"
-summary : "MySQL, ExpressJS, ReactJS and NodeJS are amongst the most popular technologies in the software industry right now."
+summary : "MySQL/MongoDB, ExpressJS, ReactJS and NodeJS are amongst the most popular technologies in the software industry right now."
 # course thumbnail
 image: "images/courses/mern-stack.png"
 # taxonomy
@@ -16,11 +16,11 @@ category: "Web Development"
 # teacher
 teacher: "Chandan Anand Purohit"
 # duration
-duration : "04 Month"
+duration : "03 Month"
 # weekly
 weekly : "08 hours"
 # course fee
-fee : "₹25,000"
+fee : "₹18,000"
 # apply url
 apply_url : "#"
 # type

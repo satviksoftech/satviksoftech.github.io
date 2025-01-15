@@ -16,11 +16,11 @@ category: "Programming"
 # teacher
 teacher: "Chandan Anand Purohit"
 # duration
-duration : "01 Month"
+duration : "1.5 Month"
 # weekly
 weekly : "08 hours"
 # course fee
-fee : "₹4500"
+fee : "₹6000"
 # apply url
 apply_url : "#"
 # type
