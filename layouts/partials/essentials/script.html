@@ -19,6 +19,7 @@
 
 <!-- main script -->
 {{ $scripts = $scripts | append (resources.Get "js/main.js") }}
+
 {{ $scripts = $scripts | resources.Concat "js/script.js" }}
 
 {{ $scriptsLazy = $scriptsLazy | resources.Concat "js/script-lazy.js" }}
@@ -29,6 +30,7 @@
 {{ end }}
 
 {{/* scripts */}}
+
 <script
   crossorigin="anonymous"
   integrity="{{ $scripts.Data.Integrity }}"

@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "https://satviksoftech.github.io/ "
+baseURL = "https://satviksoftech.github.io/"
 # Title of your website (required).
 title = "SathvikSoftech"
 # Your theme name
@@ -171,4 +171,6 @@ lazy = true
 [[params.plugins.js]]
 link = "plugins/youtube-lite.js"
 lazy = true
-    
+[[params.plugins.js]]
+link = "js/scripts.js"
+lazy = true
