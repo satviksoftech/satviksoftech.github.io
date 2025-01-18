@@ -136,6 +136,26 @@
     </div>
   </section>
 <!-- /Courses -->
+<!--
+<section class="courses">
+    <h2>Our Courses</h2>
+    <div class="course-list">
+        {{ $courses := .Site.GetPage "/course" }}
+        {{ if $courses }}
+            {{ range $courses.Pages }}
+                <div class="course-item">
+                    <h3>{{ .Title }}</h3>
+                    <p>{{ .Summary }}</p>
+                    <a href="{{ .Permalink }}">Learn More</a>
+                </div>
+            {{ end }}
+        {{ else }}
+            <p>No courses available</p>
+        {{ end }}
+    </div>
+</section>
+--> 
+
 
   <!-- Testimonials -->
       <section class="section">

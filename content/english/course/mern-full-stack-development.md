@@ -25,6 +25,7 @@ fee : "₹18,000"
 apply_url : "#"
 # type
 type: "course"
+category: "job-oriented" 
 ---
 
 
