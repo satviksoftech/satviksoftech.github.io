@@ -1,0 +1,28 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+
+  <section class="section">
+    <div class="container">
+      <div class="row gx-2">
+        <!-- blog posts -->
+        <div class="md:col-10 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-11">
+          {{ range .Data.Pages }}
+          <div class="post">
+            {{ partial "components/blog-card" . }}
+
+          </div>
+          {{ end }}
+
+        </div>
+
+        <!-- sidebar -->
+        <div class="md:col-2 col-12">
+          <!-- widget -->
+          {{ $widget:= site.Params.widgets.sidebar }}
+          {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

@@ -16,7 +16,8 @@ author: "Chandan Purohit"
 categories: ["Education"]
 tags: ["Education"]
 # type
-type: "post"
+type: "blog"
+layout: "blog/single"
 ---
 
 ### What is the purpose of education?

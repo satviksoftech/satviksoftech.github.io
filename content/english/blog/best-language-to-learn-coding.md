@@ -17,7 +17,8 @@ categories: ["Education"]
 tags: ["Programming", "Python"]
 audience: "beginner"
 # type
-type: "post"
+type: "blog"
+layout: "blog/single"
 ---
 
 ### What is coding or programming?

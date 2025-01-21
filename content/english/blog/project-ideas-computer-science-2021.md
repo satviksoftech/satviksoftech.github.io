@@ -16,7 +16,8 @@ author: "Chandan Purohit"
 categories: ["Web Development"]
 tags: ["Javascript","Python","Web Development"]
 # type
-type: "post"
+type: "blog"
+layout: "blog/single"
 ---
 
 Hi everyone! Here are some nice project ideas for those of you who want to implement projects and showcase in your college especially for final year computer science students. Most of the projects are done already by our internship students. Feel free to contact us for any assistance!

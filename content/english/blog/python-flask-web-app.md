@@ -16,7 +16,8 @@ author: "Chandan Purohit"
 categories: ["Web Development"]
 tags: ["Flask","Web Development", "Python"]
 # type
-type: "post"
+type: "blog"
+layout: "blog/single"
 ---
 
 ### What is Flask?
