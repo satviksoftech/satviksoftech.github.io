@@ -1,19 +1,18 @@
 ---
-mtitle: "Full Stack Web Development course with MERN stack in hubli dharwad"
-title: "Full Stack MERN"
+mtitle: "Cyber Security cloud computing training in hubli dharwad"
+title: "Cyber Security AWS"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "MySQL/MongoDB, ExpressJS, ReactJS and NodeJS are amongst the most popular technologies in the software industry right now.We offer best full stack course in Hubli Dharwad region"
-keywords : "full stack course in hubli dharwad, full stack training in hubli dharwad, full stack institutes in hubli dharwad, full stack classes in hubli dharwad, full stack course fees in hubli dharwad, full stack training centers in hubli dharwad, full stack training course in hubli dharwad, full stack training institutes in hubli dharwad, full stack training classes in hubli dharwad, full stack coaching classes in hubli dharwad, full stack certification course in hubli dharwad, full stack training and placement in hubli dharwad, classes for full stack course in hubli dharwad, best institute for full stack course in hubli dharwad, full stack course in hubli dharwad with 100% job"
-summary : "MySQL/MongoDB, ExpressJS, ReactJS and NodeJS are amongst the most popular technologies in the software industry right now."
+description : "AWS and Azure are amongst the most popular cloud service technologies in the software industry right now.We offer best Cyber Security and cloud computing course in Hubli Dharwad region"
+keywords : "Cyber Security course in hubli dharwad, Cyber Security training in hubli dharwad, Cyber Security institutes in hubli dharwad, Cyber Security classes in hubli dharwad, Cyber Security course fees in hubli dharwad, Cyber Security training centers in hubli dharwad, Cyber Security training course in hubli dharwad, Cyber Security training institutes in hubli dharwad, Cyber Security training classes in hubli dharwad, Cyber Security coaching classes in hubli dharwad, Cyber Security certification course in hubli dharwad, Cyber Security training and placement in hubli dharwad, classes for Cyber Security course in hubli dharwad, best institute for Cyber Security course in hubli dharwad, Cyber Security course in hubli dharwad with 100% job"
+summary : "Master Cyber Security with Kali Linux, AWS, Docker, Python, Wireshark"
 # course thumbnail
 image: "images/courses/mern-stack.png"
-icon: "ph-code"
+icon: "ph-shield-star"
 # taxonomy
-category: "Web Development"
 # teacher
 teacher: "Chandan Anand Purohit"
 # duration

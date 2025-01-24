@@ -136,25 +136,39 @@
     </div>
   </section>
 <!-- /Courses -->
-<!--
-<section class="courses">
-    <h2>Our Courses</h2>
-    <div class="course-list">
+
+<section class="container">
+    <h2 class="text-center">Job Oriented Courses</h2>
+    <div class="row p-0 course-list justify-evenly">
         {{ $courses := .Site.GetPage "/course" }}
         {{ if $courses }}
-            {{ range $courses.Pages }}
-                <div class="course-item">
-                    <h3>{{ .Title }}</h3>
-                    <p>{{ .Summary }}</p>
-                    <a href="{{ .Permalink }}">Learn More</a>
-                </div>
+            {{ range where $courses.Pages ".Params.category" "eq" "job-oriented"}}
+            <div class="p-0 col-12 gap-2 md:col-3  border border-gray-200 rounded-lg shadow-md lg:max-w-md">
+              <div class="flex w-full justify-center items-center bg-orange-400">
+                <i class="ph {{ .Params.icon }}" style="color:#ffffff; font-size:5em"></i>
+              </div>
+              <div class="p-10 card-body">
+                <h2 class="mb-2 text-h2 text-primary tracking-tight">
+                  {{.Title}}
+                </h2>
+                
+                <p class="mb-3 font-normal text-gray-700">
+                    {{ .Summary }}.
+                </p>
+                
+                <a href="{{ .Permalink }}" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-purple-700 rounded-lg hover:bg-purple-800 focus:outline-none">
+                    Explore
+                </a>
+              </div>
+              
+          </div>
             {{ end }}
         {{ else }}
             <p>No courses available</p>
         {{ end }}
     </div>
 </section>
---> 
+ 
 
 
   <!-- Testimonials -->

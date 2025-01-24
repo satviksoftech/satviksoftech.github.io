@@ -1,19 +1,18 @@
 ---
-mtitle: "Full Stack Web Development course with MERN stack in hubli dharwad"
-title: "Full Stack MERN"
+mtitle: "Devops cloud computing training in hubli dharwad"
+title: "Devops AWS"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "MySQL/MongoDB, ExpressJS, ReactJS and NodeJS are amongst the most popular technologies in the software industry right now.We offer best full stack course in Hubli Dharwad region"
-keywords : "full stack course in hubli dharwad, full stack training in hubli dharwad, full stack institutes in hubli dharwad, full stack classes in hubli dharwad, full stack course fees in hubli dharwad, full stack training centers in hubli dharwad, full stack training course in hubli dharwad, full stack training institutes in hubli dharwad, full stack training classes in hubli dharwad, full stack coaching classes in hubli dharwad, full stack certification course in hubli dharwad, full stack training and placement in hubli dharwad, classes for full stack course in hubli dharwad, best institute for full stack course in hubli dharwad, full stack course in hubli dharwad with 100% job"
-summary : "MySQL/MongoDB, ExpressJS, ReactJS and NodeJS are amongst the most popular technologies in the software industry right now."
+description : "AWS and Azure are amongst the most popular cloud service technologies in the software industry right now.We offer best devops and cloud computing course in Hubli Dharwad region"
+keywords : "devops course in hubli dharwad, devops training in hubli dharwad, devops institutes in hubli dharwad, devops classes in hubli dharwad, devops course fees in hubli dharwad, devops training centers in hubli dharwad, devops training course in hubli dharwad, devops training institutes in hubli dharwad, devops training classes in hubli dharwad, devops coaching classes in hubli dharwad, devops certification course in hubli dharwad, devops training and placement in hubli dharwad, classes for devops course in hubli dharwad, best institute for devops course in hubli dharwad, devops course in hubli dharwad with 100% job"
+summary : "Master devops with Linux, AWS, Docker, Kubernetes, Jenkins and Github"
 # course thumbnail
 image: "images/courses/mern-stack.png"
-icon: "ph-code"
+icon: "ph-codesandbox-logo"
 # taxonomy
-category: "Web Development"
 # teacher
 teacher: "Chandan Anand Purohit"
 # duration
