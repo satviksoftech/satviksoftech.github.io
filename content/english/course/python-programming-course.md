@@ -31,46 +31,17 @@ audience: "beginner"
 popular: true
 about: "This is the python course which will help you to kick start your career as a software developer. In this course we teach the fundamentals of computer programming through python programming language. You will learn to think logically and improve your problem solving skills, thanks to our revolutionary LEARN WITH LIVE CODING approach. We begin with representing and storing data using python data types and variables and gradually learn how to use python's build in data structures like lists, tuples, dictionaryies etc. Along the way we will solve many puzzles and also understand object oriented programming concepts. We also cover data analysis with numpy, matplotlib, seaborne, pandas. To summarize, this python coding class will take you from an absolute noob to a good developer within a month."
 syllabus:
-    - heading: "Week 1: Getting our feet wet"
-      content:
-        - line: "Undestanding Interpreted languages, Compiled languages"
-        - line: "Using the Python REPL"
-        - line: "Decision making statements and problem solving- if-else"
-        - line: "Loops- while and for with problem solving"
-        - line: "Strings - Slicing, iteration, Basic string problems using loops"
-        
-    - heading: "Week 2: Becoming a good coder"
-      content:
-        - line: "Understanding Functions"
-        - line: "Solving problems using functional programming"
-        - line: "Using functions as first class objects"
-        - line: "Some built in functions"
-        - line: "Lists,dictionaries, sets and tuples- Basic usage, using functions"
-
+    - heading: "Getting our feet wet"
+      content: "Python REPL, if-else, loops, strings, problem solving"
+    - heading: "Becoming a good coder"
+      content: "Understanding Functions, functional programming, scope, chaining, closure, concurrency"
     - heading: "Week 3: Becoming a professional coder"
-      content:
-        - line: "Solving problems using Object Oriented Programming"
-        - line: "Multilevel and multiple inheritance"
-        - line: "Method overriding and overloading"
-        - line: "Comprehensions, generators, iterators, file handling, multi threading"
-        - line: "Building games and apps with tkinter, pygame etc"
+      content: "OOP, Data Structures, Comprehension, Built-ins, packages, pygame"
 
-    - heading: "Week 4: Becoming a Data Scientist"
-      content:
-        - line: "Numerical processing in Python"
-        - line: "Numpy, matplotlib, pandas, seaborn"
-        - line: "Project-Data analysis with pandas"
-        - line: "Basic of Machine learning - sklearn library"
-        - line: "Project - Building a Machine Learning project"
-
-
-    - heading: "Week 5: Becoming a Software Developer"
-      content:
-        - line: "Version control with Git"
-        - line: "Building web applications"
-        - line: "Flask web app framework basics"
-        - line: "SQL - Database design and queries"
-        - line: "Project - Building a web application with database support using Flask"
+    - heading: "Becoming a Data Scientist"
+      content: "Jupyter, Numpy, Matplotlib, Pandas, Kaggle, Colab, Computer Vision, AI"
+    - heading: "Becoming a Software Developer"
+      content: "Building web applications, Flask framework, SQL, Project"
 
 ---
 

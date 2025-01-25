@@ -10,7 +10,7 @@ description : "AWS and Azure are amongst the most popular cloud service technolo
 keywords : "devops course in hubli dharwad, devops training in hubli dharwad, devops institutes in hubli dharwad, devops classes in hubli dharwad, devops course fees in hubli dharwad, devops training centers in hubli dharwad, devops training course in hubli dharwad, devops training institutes in hubli dharwad, devops training classes in hubli dharwad, devops coaching classes in hubli dharwad, devops certification course in hubli dharwad, devops training and placement in hubli dharwad, classes for devops course in hubli dharwad, best institute for devops course in hubli dharwad, devops course in hubli dharwad with 100% job"
 summary : "Master devops with Linux, AWS, Docker, Kubernetes, Jenkins and Github"
 # course thumbnail
-image: "images/courses/mern-stack.png"
+image: "images/courses/devops.jpg"
 icon: "ph-codesandbox-logo"
 # taxonomy
 # teacher

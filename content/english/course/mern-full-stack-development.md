@@ -1,6 +1,7 @@
 ---
 mtitle: "Full Stack Web Development course with MERN stack in hubli dharwad"
-title: "Full Stack MERN"
+title: "Full Stack with MERN"
+subtitle: "Guaranteed path towards IT career"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
@@ -13,7 +14,6 @@ summary : "MySQL/MongoDB, ExpressJS, ReactJS and NodeJS are amongst the most pop
 image: "images/courses/mern-stack.png"
 icon: "ph-code"
 # taxonomy
-category: "Web Development"
 # teacher
 teacher: "Chandan Anand Purohit"
 # duration
@@ -26,7 +26,36 @@ fee : "₹18,000"
 apply_url : "#"
 # type
 type: "course"
+banner_points:
+    - Deep and systematic content coverage
+    - Expert insights and Industry standards
+    - 100% Hands-on live classes
+    - Life long placement assistance
+    - Mock interviews and resume building
+    - Build strong job-ready portfolios
+
+syllabus:
+    - heading: "Web UI Design and Development"
+      content: "Figma mock up design, HTML structuring, CSS concepts, animations, Developing static pages"
+    - heading: "Programming with Javascript"
+      content: "Variables, Decision making, Loops, Functions, Problem Solving"
+    - heading: "Data Structures and OOP"
+      content: "Arrays, Strings, Objects, Maps, Methods, Inheritance, Overriding, Game Development"
+    - heading: "Version control with Git and GitHub"
+      content: "Git,Git commands,Branching,Restoration,Merging,Github,Contributing to open source" 
+    - heading: "Advanced JS"
+      content: "Functional Programming,Spreading,Destructuring,Promises,JSON,Rest API"
+    - heading: "NodeJS and Express"
+      content: "NodeJS, NPM, REPL, import and require, packages, ExpressJS, Routing, Middlewares"
+    - heading: "Database MySQL/MongoDB, Docker"
+      content: "DB design, Docker, Querying, Transactions, Connecting with Express"
+    - heading: "Authentication and Authorization"
+      content: "Sessions,Cookies,Tokens,Web Security"
+    - heading: "ReactJS and NextJS"
+      content: "Web Components, JSX, HOC, NextJS, Vercel"
+
 category: "job-oriented" 
+
 ---
 
 

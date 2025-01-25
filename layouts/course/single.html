@@ -63,14 +63,11 @@
           </div>
           <div class="card-text text-h6">
             <ul>
-              {{ range .content }}
-              <li>
-              <i class="ph-duotone ph-paper-plane-right" style="color:#0c0a06; "></i>
-                
-                {{ .line }}
-              </li>
+              {{ $tags := split .content "," }}
+              {{ range $tags }}
+                  <li>{{ . }}</li>
               {{ end }}
-            </ul>
+          </ul>
   
           </div>
                     

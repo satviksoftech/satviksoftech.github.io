@@ -31,47 +31,20 @@ about: "This is a unique Java course which takes student from novice to professi
 
 This is must have course for any student wishing to truly understand OOP concepts. Java is a very popular language in which Object Oriented Programming is heavily relied upon. We focus on unique aspects of Java right from first class so that students are able to think the Java way right from the beginning. The course also focuses on reading official documentation so that students also learn how to learn on their own. The course ends with Android App Development using Java"
 syllabus:
-    - heading: "Week 1: Introduction, data types, loops"
-      content:
-        - line: "History of java, jdk, jvm, current versions"
-        - line: "Data types"
-        - line: "Decision making statements and problem solving- if-else, switch"
-        - line: "Loops- while and for with problem solving"
-        - line: "Arrays- problem solving with arrays"
-        
-    - heading: "Week 2: Becoming a good coder"
-      content:
-        - line: "Understanding Functions and scope"
-        - line: "Solving problems using functional programming"
-        - line: "Static keyword and its usage"
-        - line: "Polymorphism"
+    - heading: "Introduction, data types, loops"
+      content: "History, jdk, jvm, versions, Data types, if-else-switch, Loops, Problem Solving"
+
+    - heading: "Arrays and Functional Programming"
+      content: "Arrays, Static functions, Modular Programming, Polymorphism"
         
 
-    - heading: "Week 3: Becoming a professional coder"
-      content:
-        - line: "Multilevel and multiple inheritance"
-        - line: "Method overriding and overloading"
-        - line: "Abstract classes, interfaces"
-        - line: "Solving problems using Object Oriented Programming"
-        - line: "Strings, wrapper classes, Generics"
+    - heading: "Object Oriented Programming"
+      content: "Classes, Inheritance, Methods, Constructor, Overriding and overloading, Abstract classes, Interfaces, Solving problems using OOP"
 
-    - heading: "Week 4: Path to Java expertise"
-      content:
-        - line: "Generic interfaces - Comparator and Comparable"
-        - line: "Collections in Java"
-        - line: "Solving problems using collections"
-        - line: "Building desktop apps with Swing"
-        - line: "Java 8 streams and lambda functions"
-        - line: "File Handling, Exception handling, multi threading"
-
-
-    - heading: "Week 5: Becoming a App Developer"
-      content:
-        - line: "JDBC and Sql"
-        - line: "Building web applications using JSP"
-        - line: "Android SDK, Activity, Activity life cycle"
-        - line: "Gradle, Implementing android apps"
-        - line: "Project - Building a android app"
+    - heading: "Generics, Data Structures and Collections"
+      content: "Strings, Wrappers, Generics, Tree, Map, List, Queue, Comparator, File Handling"
+    - heading: "Becoming a App Developer"
+      content: "Maven, gradle, JDBC and Sql, JSP, Android SDK, Mobile App Dev"
 
 
 ---

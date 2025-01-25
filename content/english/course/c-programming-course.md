@@ -26,37 +26,17 @@ apply_url : "#"
 # type
 type: "course"
 syllabus:
-    - heading: "Week 1: Programming basics, computer basics, c programming basics"
-      content:
-        - line: "Statically typed languages, compilers and compilation steps"
-        - line: "Basic data types along with important new additions"
-        - line: "Decision making - conditional and if-else"
-        - line: "Loops- while, do-while and for with problem solving"
-        
-        
-    - heading: "Week 2: Procedural programming"
-      content:
-        - line: "Basics for arrays - creation, indexing"
-        - line: "Solving problems using arrays"
-        - line: "Strings in C"
-        - line: "Problems related to strings and arrays"
-        - line: "Nested loops"
+    - heading: "Programming basics"
+      content: "Structure, Data Types, if-else-switch, Loops, Problem Solving"
+    - heading: "Data Structures"
+      content: "Arrays, Strings, Array Manipulation, String Manipulation, Problem Solving"
 
-    - heading: "Week 3: Functional programming"
-      content:
-        - line: "Thinking in Functional Programming"
-        - line: "Basics of functions and understaning scope"
-        - line: "Solving problems using functions"
-        - line: "Popular functions in standard library"
+    - heading: "Functional programming"
+      content: "Definition and Declaration, Scope, Pass by value, Passing Arrays, Return, Problem Solving, Macros"
 
-    - heading: "Week 4: Pointers, structures, unions, files"
-      content:
-        - line: "Understanding addresses and importance of pointers, usage"
-        - line: "Passing pointers to functions"
-        - line: "Strings, arrays and pointers"
-        - line: "Custom data types using struct and union"
-        - line: "Dynamic memory allocation"
-        - line: "Modular programming, file handling"
+    
+    - heading: "Advanced C"
+      content: "Modular Programming, Pointer, Stuctures, Unions, Dynamic Memory, Double Pointers, File Handling"
 
 
 ---

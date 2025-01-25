@@ -139,7 +139,7 @@
 
 <section class="container">
     <h2 class="text-center">Job Oriented Courses</h2>
-    <div class="row p-0 course-list justify-evenly">
+    <div class="row p-0  course-list justify-evenly">
         {{ $courses := .Site.GetPage "/course" }}
         {{ if $courses }}
             {{ range where $courses.Pages ".Params.category" "eq" "job-oriented"}}

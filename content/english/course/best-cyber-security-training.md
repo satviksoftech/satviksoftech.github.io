@@ -10,7 +10,7 @@ description : "AWS and Azure are amongst the most popular cloud service technolo
 keywords : "Cyber Security course in hubli dharwad, Cyber Security training in hubli dharwad, Cyber Security institutes in hubli dharwad, Cyber Security classes in hubli dharwad, Cyber Security course fees in hubli dharwad, Cyber Security training centers in hubli dharwad, Cyber Security training course in hubli dharwad, Cyber Security training institutes in hubli dharwad, Cyber Security training classes in hubli dharwad, Cyber Security coaching classes in hubli dharwad, Cyber Security certification course in hubli dharwad, Cyber Security training and placement in hubli dharwad, classes for Cyber Security course in hubli dharwad, best institute for Cyber Security course in hubli dharwad, Cyber Security course in hubli dharwad with 100% job"
 summary : "Master Cyber Security with Kali Linux, AWS, Docker, Python, Wireshark"
 # course thumbnail
-image: "images/courses/mern-stack.png"
+image: "images/courses/security.jpg"
 icon: "ph-shield-star"
 # taxonomy
 # teacher
