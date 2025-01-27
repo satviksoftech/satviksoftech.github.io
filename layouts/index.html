@@ -114,31 +114,8 @@
   {{ end }}
   <!-- /Features -->
 
-  <!-- Courses section--> 
-  <section class="section-sm ">
-    <div class="container">
-      <h2 class="mb-4 text-center text-h2">
-        {{ .Params.coursessection.title | markdownify }}
-      </h2>
-      <p class="mb-8 text-lg text-primary">
-        {{ .Params.coursessection.description | markdownify }}
-      </p>
-
-      <div class="row justify-between">
-      {{ range $i, $e:= .Params.courses }}
-
-        <div class="md:col-6 lg:col-4 mb-1">
-          {{ partial "components/course-card" . }}
-        </div>
-      {{ end }}
-
-      </div>
-    </div>
-  </section>
-<!-- /Courses -->
-
-<section class="container">
-    <h2 class="text-center">Job Oriented Courses</h2>
+  <section class="container">
+    <h2 class="py-7 text-center">Job Oriented Courses</h2>
     <div class="row p-0  course-list justify-evenly">
         {{ $courses := .Site.GetPage "/course" }}
         {{ if $courses }}
@@ -149,7 +126,7 @@
               </div>
               <div class="p-10 card-body">
                 <h2 class="mb-2 text-h2 text-primary tracking-tight">
-                  {{.Title}}
+                  {{.Params.mtitle}}
                 </h2>
                 
                 <p class="mb-3 font-normal text-gray-700">
@@ -169,6 +146,28 @@
     </div>
 </section>
  
+  <!-- Courses section--> 
+  <section class="section">
+    <div class="container">
+      <h2 class="text-center">Popular courses</h2>
+      <!-- course list -->
+      <div class="row justify-content-center">
+        <!-- course item -->
+        {{ $courses := .Site.GetPage "/course" }}
+        {{ if $courses }}
+        {{ range where $courses.Pages ".Params.category" "ne" "job-oriented"}}
+        <div class="col-12 md:col-4 mb-5">
+          {{ .Render "course" }}
+        </div>
+        {{ end }}
+        {{ end }}
+
+      </div>
+      <!-- /course list -->
+    </div>
+  </section>
+<!-- /Courses -->
+
 
 
   <!-- Testimonials -->
@@ -187,9 +186,9 @@
             </div>
             <div class="col-12">
               <div>
-                <div class="row sm:flex-wrap">
+                <div class="row">
                   {{ range .Params.testimonials }}
-                    <div class="md:col-4 bg-white relative shadow-md ">
+                    <div class="col-12 md:col-4 bg-white relative shadow-md ">
                       <div class="absolute avatar left-3 -top-5 flex">
                         <i class="ph-duotone ph-coins" style="color:#f1951c; font-size:5em"></i>
                         <h6 class="text-h4 text-orange-400">{{.salary}}</h6>

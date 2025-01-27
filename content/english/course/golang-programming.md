@@ -1,6 +1,6 @@
 ---
-mtitle: "programming classes, Go programming classes"
-title: "Building cloud ready apps with Golang"
+title: "programming classes, Go programming classes"
+mtitle: "Building cloud ready apps with Golang"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
