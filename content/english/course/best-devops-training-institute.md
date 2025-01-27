@@ -16,36 +16,67 @@ icon: "ph-codesandbox-logo"
 # teacher
 teacher: "Chandan Anand Purohit"
 # duration
-duration : "03 Month"
+duration : "2.5 Month"
 # weekly
 weekly : "08 hours"
 # course fee
-fee : "₹18,000"
+fee : "₹16,000"
 # apply url
 apply_url : "#"
 # type
 type: "course"
+banner_points:
+    - Deep and systematic content coverage
+    - Expert insights and Industry standards
+    - 100% Hands-on live classes
+    - Life long placement assistance
+    - Mock interviews and resume building
+    - Build strong job-ready portfolios
+
+syllabus:
+    - heading: "Devops and Linux Fundamentals"
+      content: "  
+    DevOps principles and practices,
+    The DevOps lifecycle,
+    Linux: Basics and command line usage,
+    Linux file system,
+    Linux commands for DevOps
+      "
+    - heading: "Git and GitHub"
+      content: "
+      version control systems,
+      Git: Installation and configuration,
+      Git commands,
+      Branching strategies,
+      Github: Pull and Contribute"
+    - heading: "Containerization with Docker"
+      content: "
+        Containerization and its benefits,
+        Setting up Docker,
+        Docker images and containers,
+        Dockerfiles and custom images,
+        Docker Compose
+      "
+    - heading: "Orchestration with Kubernetes"
+      content: "Kubernetes architecture and components,
+      Setting up a Kubernetes cluster,
+      Managing pods deployments and services,
+      Networking and storage in Kubernetes,
+      Package management in Kubernetes" 
+    - heading: "Terraform and CI/CD Practices"
+      content: "Infrastructure as Code,
+      Terraform and AWS,
+      Infrastructure lifecycle,
+      CI/CD with Github Actions,
+      Security best practices"
+
+
 category: "job-oriented" 
 ---
 
 
-### About Course
-Javascript is currently the most popular programming language in the world. This specialization is about using MERN stack to build interactive web applications.
-
-ReactJS is amongst the most sought after libraries for web development nowadays. This specialization is a rigorous programme with focus on building component based web applications using ReactJS for the front-end framework, expressJS for the backend API and MongoDB / MySQL as the database. The programme includes intense training on HTML, CSS, JS, NodeJS and ReactJS. Next will be on a real-time project of our company. The course requires strong dedication from students and minimum 4 hours per day of coding for best experience.
-
-### Topics Covered
-* Designing web pages with Figma
-* Converting Mockup to Web page 
-* In depth coverage of CSS - Flexbox, Grid, images, video, audio, animations, transitions and much much more
-* Responsive web design
-* Core HTML5 tags and accessibility
-* Vanilla Javascript(ES6 > ) - Functional programming, asynchronous programming with callbacks, Promise, async and await, event handlers, DOM and BOM, game development
-* Using JS libraries like Jquery
-* SQL, MySQL - Database design principles
-* Nodejs - Core, I/O, web development with ExpressJS
-* ReactJS - hooks, context API, integration with Express, SPA development
-* Version control with Git
+### Course Outcomes
+By the end of this course, participants will have a solid understanding of how to implement DevOps practices using modern tools like Git, Docker, Kubernetes, Terraform, and CI/CD methodologies. They will be equipped to manage infrastructure efficiently and deploy applications seamlessly.
 
 ### Requirements
 * No prior programming knowledge is needed

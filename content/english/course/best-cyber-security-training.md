@@ -25,6 +25,68 @@ fee : "₹18,000"
 apply_url : "#"
 # type
 type: "course"
+banner_points:
+    - Deep and systematic content coverage
+    - Expert insights and Industry standards
+    - 100% Hands-on live classes
+    - Life long placement assistance
+    - Mock interviews and resume building
+    - Build strong job-ready portfolios
+
+syllabus:
+    - heading: "Intro to Cyber Security"
+      content: "  
+    Cyber Security principles and practices,
+    The cyber threat landscape,
+    CIA Triad  ,
+    Governance and compliance,
+    Cyber law and ethics
+      "
+    - heading: "Networking Fundamentals"
+      content: "
+      OSI and TCP/IP models,
+      Network security concepts and tools,
+      Firewalls,
+      Intrusion Detection and Prevention,
+      Secure network design principles"
+    - heading: "Operating System Security"
+      content: "
+        Security in Windows and Linux,
+        Hash functions and digital signatures,
+        Public Key Infrastructure,
+        SSL and TLS,
+        Implementing encryption in applications
+      "
+    - heading: "Penetration Testing Fundamentals"
+      content: "Methodologies and frameworks,
+      Kali Linux,
+      OWASP and NIST,
+      Reconnaissance: Footprinting and scanning,
+      Vulnerability assessment,
+      Exploitation techniques,
+      Reporting findings and remediation strategies" 
+    - heading: "Web Application Security"
+      content: "SQL Injection, XSS, CSRF,
+      Secure web app coding practices,
+      Web application firewalls (WAF),
+      Web application penetration tests,
+      Case studies"
+    - heading: "Incident Response and Forensics"
+      content: "Incident response lifecycle,
+      Evidence collection and preservation,
+      Tools for forensic analysis (EnCase, FTK),
+      Legal considerations,
+      Developing an incident response plan"
+    - heading: "Cloud Security Essentials"
+      content: "IaaS PaaS SaaS,
+      Cloud security challenges and best practices,
+      Securing cloud environments,
+      Cloud Identity and Access Management,
+      ISO 27001, GDPR
+            
+      Case studies"
+
+
 category: "job-oriented" 
 ---
 
