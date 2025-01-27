@@ -1,6 +1,6 @@
 ---
-mtitle: "Web Development course with best full stack classes hubli, reactjs classes hubli dharwad"
-title: "Web Development course in Hubli with HTML, CSS and Javascript"
+title: "Web Development course with best full stack classes hubli, reactjs classes hubli dharwad"
+mtitle: "Web Development with HTML, CSS and Javascript"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
@@ -8,7 +8,14 @@ bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : "HTML,CSS,JS,NodeJS along with Jquery, and bootstrap all in one web development course in hubli. Web development course with 100% placement support. Best web devlopment course in Hubli dharwad"
 summary : "Want to learn web development hands-on through building games and apps? Join this course"
-keywords : "web development course in hubli dharwad, web development training in hubli dharwad, web development institutes in hubli dharwad, web development classes in hubli dharwad, web development course fees in hubli dharwad, web development training centers in hubli dharwad, web development training course in hubli dharwad, web development training institutes in hubli dharwad, web development training classes in hubli dharwad, web development coaching classes in hubli dharwad, web development certification course in hubli dharwad, web development training and placement in hubli dharwad, classes for web development data science course in hubli dharwad, best institute for web development course in hubli dharwad, web development course in hubli dharwad with 100% job"
+keywords : 
+    - "web development course in hubli dharwad"
+    - "web development training in hubli dharwad"
+    - "web development institutes in hubli dharwad"
+    - "web development classes in hubli dharwad"
+    - "best web development training in hubli dharwad"
+    - "job guaranteed web design and development training centers in hubli dharwad"
+
 # course thumbnail
 image: "images/courses/web-programming.jpg"
 # taxonomy

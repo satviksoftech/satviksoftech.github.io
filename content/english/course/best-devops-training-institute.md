@@ -1,13 +1,17 @@
 ---
-mtitle: "Devops cloud computing training in hubli dharwad"
-title: "Devops AWS"
+title: "Devops cloud computing training in hubli dharwad"
+mtitle: "Devops - zero to hero"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : "AWS and Azure are amongst the most popular cloud service technologies in the software industry right now.We offer best devops and cloud computing course in Hubli Dharwad region"
-keywords : "devops course in hubli dharwad, devops training in hubli dharwad, devops institutes in hubli dharwad, devops classes in hubli dharwad, devops course fees in hubli dharwad, devops training centers in hubli dharwad, devops training course in hubli dharwad, devops training institutes in hubli dharwad, devops training classes in hubli dharwad, devops coaching classes in hubli dharwad, devops certification course in hubli dharwad, devops training and placement in hubli dharwad, classes for devops course in hubli dharwad, best institute for devops course in hubli dharwad, devops course in hubli dharwad with 100% job"
+keywords : 
+  - "devops course in hubli dharwad"
+  - "best devops training institute"
+  - "100% job guaranteed devops training institute"
+  - "AWS Azure GCP devops classes in hubli dharwad"
 summary : "Master devops with Linux, AWS, Docker, Kubernetes, Jenkins and Github"
 # course thumbnail
 image: "images/courses/devops.jpg"

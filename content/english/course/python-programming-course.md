@@ -1,7 +1,7 @@
 ---
 
-mtitle: "Python coding class, Machine Learning, Data Science"
-title: "Python For Data Science"
+title: "Best Data Science Python coding class in hubli |  Machine Learning | Data Science training institute"
+mtitle: "Python For Data Science"
 date: 2021-03-15T15:27:17+06:00
 draft: false
 # page title background image
@@ -9,7 +9,12 @@ bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 summary : "Improve programming skills through live coding solution for programming puzzles and application development"
 description : "Data Science with python course, Artificial Intelligence course python, Best PYTHON Course in Hubli Dharwad. Get Certified from Best PYTHON Training Institute and Classes in Hubli Dharwad in Classroom and Online Training Format in Affordable Fees with Projects & Free Placement Support"
-keywords : "python course in hubli dharwad, python training in hubli dharwad, python artificial intelligence course in hubli dharwad, python classes in hubli dharwad, python course fees in hubli dharwad, python training centers in hubli dharwad, python training course in hubli dharwad, python training institutes in hubli dharwad, python training classes in hubli dharwad, python coaching classes in hubli dharwad, python certification course in hubli dharwad, python training and placement in hubli dharwad, classes for python data science course in hubli dharwad, best institute for python course in hubli dharwad, data science course python"
+keywords : 
+  - "best python course in hubli dharwad"
+  - "best python data science course in hubli"
+  - "job guarateed python full stack course"
+  - "no 1 python training institute hubli"
+
 
 # course thumbnail
 image: "images/courses/python.png"

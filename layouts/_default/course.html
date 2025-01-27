@@ -6,7 +6,7 @@
       <li class="list-inline-item"><i class="ti-calendar"></i> {{ .Params.Duration }}</li>
       <li class="list-inline-item"><i class="ti-bookmark-alt"></i> {{ .Params.Category }}</li>
     </ul>
-    <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+    <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Params.mtitle }}</a></h4>
     <p class="card-text mb-4">{{ .Summary | truncate 100 }}</p>
     <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">View Details</a>
   </div>

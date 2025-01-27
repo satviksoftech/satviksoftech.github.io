@@ -1,13 +1,21 @@
 ---
-mtitle: "Algorithms and Data Structures classes in Hubli and Dharwad"
-title: "Data Structures and Algorithms through C"
+title: "Best DSA training center | Algorithms and Data Structures classes in Hubli and Dharwad"
+mtitle: "Data Structures and Algorithms through C"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "/images/backgrounds/page-title.jpg"
 # meta description
 description : "Data structures and algorithms are fundamental to any software and we offer best data structures course in Hubli Dharwad region. Best competitive coding class in hubli"
-keywords : "data structures course in hubli dharwad, data structures training in hubli dharwad, data structures institutes in hubli dharwad, data structures classes in hubli dharwad, data structures course fees in hubli dharwad, data structures training centers in hubli dharwad, data structures training course in hubli dharwad, data structures training institutes in hubli dharwad, data structures training classes in hubli dharwad, data structures coaching classes in hubli dharwad, data structures certification course in hubli dharwad, data structures training and placement in hubli dharwad, classes for data structures course in hubli dharwad, best institute for data structures course in hubli dharwad, data structures course in hubli dharwad with 100% job"
+keywords : 
+    - "data structures course in hubli dharwad"
+    - "data structures training in hubli dharwad"
+    - "best data structures institutes in hubli dharwad"
+    - "best data structures classes near me"
+    - "algorithms and data structure classes near me"
+    - "leet code DSA classes"
+    - "DSA classes in hubli dharwad"
+
 summary : "Data structures and algorithms are fundamental to any software and we offer best data structures course in Hubli Dharwad region."
 # course thumbnail
 image: "/images/courses/ds.png"

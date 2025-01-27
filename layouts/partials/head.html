@@ -33,7 +33,7 @@
     content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
 
     <meta name="keywords"
-    content="{{ with .Params.Keywords }}{{ . }}{{ else }}{{ with site.Params.keywords }}{{ . }}{{ end }}{{ end }}">
+    content='{{ with .Params.keywords }}{{ delimit . ", " }}{{ else }}{{ with .Site.Params.keywords }}{{ delimit . ", " }}{{ end }}{{ end }}'>
   {{ with site.Params.author }}
   <meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}

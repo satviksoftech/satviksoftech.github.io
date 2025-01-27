@@ -1,7 +1,7 @@
 ---
 
-mtitle: "Java classes hubli dharwad, best Java programming class"
-title: "Java Application Programming"
+title: "Java classes hubli dharwad, best Java programming class"
+mtitle: "Java Application Programming"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
@@ -9,7 +9,17 @@ bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 summary : "Gain strong understanding of Object Oriented Programming through Java Programming language. Learn to build android apps in just one month"
 description : "Best JAVA Course in Hubli Dharwad. Get Certified from Best JAVA Training Institute and Classes in Hubli Dharwad in Classroom and Online Training Format in Affordable Fees with Projects & Free Placement Support "
-keywords : "java course in hubli dharwad, java training in hubli dharwad, java institutes in hubli dharwad, java classes in hubli dharwad, java course fees in hubli dharwad, java training centers in hubli dharwad, java training course in hubli dharwad, java training institutes in hubli dharwad, java training classes in hubli dharwad, java coaching classes in hubli dharwad, java certification course in hubli dharwad, java training and placement in hubli dharwad, classes for java course in hubli dharwad, best institute for java course in hubli dharwad, java course in hubli dharwad with 100% job"
+keywords : 
+  - "java course in hubli dharwad"
+  - "java training in hubli dharwad" 
+  - "java institutes in hubli dharwad"
+  - "java classes in hubli dharwad"
+  - "100% placement java course near me"
+  - "internship java training centers in hubli dharwad"
+  - "java training course in hubli dharwad"
+  - "java training institutes in hubli dharwad"
+  - "java full stack classes in hubli dharwad"
+  - "job guaranteed java training near me"
 
 # course thumbnail
 image: "images/courses/java-course.png"

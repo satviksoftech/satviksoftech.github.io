@@ -1,6 +1,6 @@
 ---
-mtitle: "C coding classes hubli"
-title: "C Programming - zero to hero"
+title: "Best C Programming classes hubli dharwad"
+mtitle: "C Programming - zero to hero"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
@@ -8,7 +8,15 @@ bg_image: "/images/backgrounds/page-title.jpg"
 # meta description
 summary : "Gain deep understanding of programming and computer working through this beginner C Programming course."
 description : "Gain deep understanding of programming and computer working through this beginner C Programming course. This course includes hands-on problem solving, logic building, understanding computer internals, game programming and much more. The only live coding class in Hubli."
-keywords : "c classes hubli dharwad, c programming training in hubli dharwad, c programming institutes in hubli dharwad, c programming classes in hubli dharwad, c programming course fees in hubli dharwad, c programming training centers in hubli dharwad, c programming training course in hubli dharwad, c programming training institutes in hubli dharwad, c programming training classes in hubli dharwad, c programming coaching classes in hubli dharwad, c programming certification course in hubli dharwad, c programming training and placement in hubli dharwad, classes for c programming course in hubli dharwad, best institute for c programming course in hubli dharwad, c programming course in hubli dharwad with 100% job"
+keywords : 
+  - "c classes hubli dharwad"
+  - "c programming training in hubli dharwad"
+  - "best c programming institutes in hubli dharwad"
+  - "c programming classes in hubli dharwad"
+  - "best c programming training center in hubli dharwad"
+  - "best embedded c programming training centers in hubli dharwad"
+  - "hands on c programming training near me"
+  - "best c coaching centers near me"
 # course thumbnail
 image: "/images/courses/c-programming-course.png"
 # taxonomy

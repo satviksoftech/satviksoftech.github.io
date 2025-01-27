@@ -1,6 +1,6 @@
 ---
-mtitle: "Full Stack Web Development course with MERN stack in hubli dharwad"
-title: "Full Stack with MERN"
+title: "Full Stack Web Development course with MERN stack in hubli dharwad"
+mtitle: "Full Stack with MERN"
 subtitle: "Guaranteed path towards IT career"
 date: 2019-07-06T15:27:17+06:00
 draft: false
@@ -8,7 +8,14 @@ draft: false
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : "MySQL/MongoDB, ExpressJS, ReactJS and NodeJS are amongst the most popular technologies in the software industry right now.We offer best full stack course in Hubli Dharwad region"
-keywords : "full stack course in hubli dharwad, full stack training in hubli dharwad, full stack institutes in hubli dharwad, full stack classes in hubli dharwad, full stack course fees in hubli dharwad, full stack training centers in hubli dharwad, full stack training course in hubli dharwad, full stack training institutes in hubli dharwad, full stack training classes in hubli dharwad, full stack coaching classes in hubli dharwad, full stack certification course in hubli dharwad, full stack training and placement in hubli dharwad, classes for full stack course in hubli dharwad, best institute for full stack course in hubli dharwad, full stack course in hubli dharwad with 100% job"
+keywords : 
+  - "full stack course in hubli dharwad"
+  - "full stack training in hubli dharwad"
+  - "full stack institutes in hubli dharwad"
+  - "full stack classes in hubli dharwad"
+  - "Full stack course in hubli dharwad with 100% job"
+  - "MERN full stack course"
+  - "Full stack training centers near me"
 summary : "MySQL/MongoDB, ExpressJS, ReactJS and NodeJS are amongst the most popular technologies in the software industry right now."
 # course thumbnail
 image: "images/courses/mern-stack.png"
