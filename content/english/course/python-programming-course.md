@@ -1,5 +1,5 @@
 ---
-
+h1: "Python AI coding classes"
 title: "Best Data Science Python coding class in hubli |  Machine Learning | Data Science training institute"
 mtitle: "Python For Data Science"
 date: 2021-03-15T15:27:17+06:00

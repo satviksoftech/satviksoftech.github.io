@@ -1,6 +1,7 @@
 ---
 # Banner
 banner:
+  h1: "Best training institute with 100% placement | Best Full stack training institute | Best DSA  classes near me"
   title: "Learn coding the right way "
   content: "Learning to code is not a money-making exercise but a life changing experience. Let us help you realize this and become good software developers and humans"
   image: "/images/coder.png"
@@ -196,6 +197,13 @@ I would recommend this to anyone who wants to learn coding but don't have any kn
     salary: "5 LPA"
     content: "Course Python and full stack programming. A student can go from basic to advanced in one place best institute to learn python and javascript programming. Great way of learning programming and to be job ready. I got placed even though I had a bad academic record"
 
+
+  - name: "Anil Karikatti"
+    avatar: "/images/testimonials/anil.jpg"
+    company: "Master Works"
+    salary: "9 LPA"
+    content: "Here I joined for web development course. Excellent teaching by Mr Chandan Purohit sir .
+If you want to learn programming and really if you work hard I recommend you this is the best institute"
 
 
 

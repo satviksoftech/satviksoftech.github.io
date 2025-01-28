@@ -7,7 +7,8 @@
   <div class="container">
     <div class="row flex-wrap ">
       <div class="col-12 md:col-8" style="padding:3.5rem 1rem">
-        <h1 class="text-white mb-8">{{ .Title | markdownify }}</h1>
+        <h1 class="hidden">{{.Params.h1}}</h1>
+        <h2 class="text-h1 text-white mb-8">{{ .Params.mtitle | markdownify }}</h2>
         <p class="text-h5 text-white text-justify">{{.Description | markdownify }}</p>
       </div>
       <div class="col-4 hidden md:block">
@@ -21,7 +22,7 @@
     <h2 class="text-h2 text-center uppercase">
       <span class="text-orange-400">sathvik internship</span> programme
     </h2>
-    <h3 class="text-h4 text-center">In Collaboration with Samarth Meditech Pvt. Ltd.</h3>
+    <h3 class="text-h4 text-center">In Collaboration with Samarth Meditech Pvt. Ltd. (MSME registered)</h3>
     <p class="text-primary text-h6 mt-4 text-justify">
       At Sathvik Softech, we offer internships across wide range of domains, targeting wide variety of learners from college students to graduates. 
       Our internship programmes focus on skill building and amplifying the employability of participants through hands-on training sessions. 

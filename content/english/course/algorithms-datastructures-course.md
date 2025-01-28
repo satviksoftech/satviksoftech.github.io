@@ -1,4 +1,5 @@
 ---
+h1: "Best DSA training center | Algorithms and Data Structures classes in Hubli and Dharwad"
 title: "Best DSA training center | Algorithms and Data Structures classes in Hubli and Dharwad"
 mtitle: "Data Structures and Algorithms through C"
 date: 2019-07-06T15:27:17+06:00

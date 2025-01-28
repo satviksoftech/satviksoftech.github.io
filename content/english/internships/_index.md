@@ -1,6 +1,7 @@
 ---
-mtitle: "Internships North Karnataka"
-title: "Kickstart your career with our unique<br> <span class='text-orange-400'> SATHVIK INTERNSHIP </span> program"
+h1: "MSME registered Internship training center | Full stack internship training"
+title: "MSME registered Internship training center | Full stack internship training"
+mtitle: "Kickstart your career with our unique<br> <span class='text-orange-400'> SATHVIK INTERNSHIP </span> program"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"

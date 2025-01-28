@@ -1,6 +1,7 @@
 ---
+h1: "Cyber security training internship | MSME registered internship hubli | ethical hacking training"
 title: "Cyber Security cloud computing training in hubli dharwad | Ethical Hacking training institute"
-mtitle: "Cyber Security AWS cloud security training"
+mtitle: "Cyber Security and AWS full course"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image

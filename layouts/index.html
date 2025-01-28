@@ -6,9 +6,10 @@
       <div class="container">
         <div class="row justify-center flex-wrap">
           <div class="md:col-6  mb-8 text-center">
-            <h1 class="mb-4 text-h1 lg:text-h1">
+            <h1 class="hidden">{{.h1}} </h1>
+            <h2 class="mb-4 text-h1 lg:text-h1">
               {{ .title }}<span class="text-orange-400">HANDS ON</span>
-            </h1>
+            </h2>
             <p class="mb-8 text-h6">
               {{ .content | markdownify }}
             </p>
@@ -186,9 +187,9 @@
             </div>
             <div class="col-12">
               <div>
-                <div class="row">
+                <div class="row md:grid md:grid-cols-2 gap-2">
                   {{ range .Params.testimonials }}
-                    <div class="col-12 md:col-4 bg-white relative shadow-md ">
+                    <div class="col-12  bg-white relative shadow-md ">
                       <div class="absolute avatar left-3 -top-5 flex">
                         <i class="ph-duotone ph-coins" style="color:#f1951c; font-size:5em"></i>
                         <h6 class="text-h4 text-orange-400">{{.salary}}</h6>

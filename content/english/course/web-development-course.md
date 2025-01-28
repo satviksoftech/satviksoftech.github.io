@@ -1,4 +1,5 @@
 ---
+h1: "Full stack training internship | MSME registered internship hubli | MERN stack training"
 title: "Web Development course with best full stack classes hubli, reactjs classes hubli dharwad"
 mtitle: "Web Development with HTML, CSS and Javascript"
 date: 2019-07-06T15:27:17+06:00

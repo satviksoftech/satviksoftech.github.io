@@ -1,4 +1,5 @@
 ---
+h1: "Full stack training internship | MSME registered internship hubli | MERN stack training"
 title: "Full Stack Web Development course with MERN stack in hubli dharwad"
 mtitle: "Full Stack with MERN"
 subtitle: "Guaranteed path towards IT career"
