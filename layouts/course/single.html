@@ -1,29 +1,29 @@
 {{ define "main" }}
 
-<section class="">
+<section class="bg-blue-100">
   <div class="container pt-4">
     <div class="row">
-      <div class="col-12 md:col-4 mb-1 bg-primary " >
-        <!-- course thumb -->
-        <img style="width: 100%;" src="{{ .Params.image | relURL }}"
-          class="img-fluid w-100">
-      </div>
+
     <!-- course info -->
     <!-- <div class="row align-items-center mb-5"> -->
-      <div class="col-12 order-1 sm:col-6 mb-1 ">
+      <div class="col-12  sm:col-6 mb-1">
         <div class="row">
           <div class="col-12">
             <h1 class="hidden">{{.Params.h1}}</h1>
-            <h2 class="text-h1">{{ .Params.mtitle }}</h2>
-            <div class="text-left">
-              <i class="ph-duotone ph-clock" style="color:#0c0a06; font-size:5em"></i>
-              <h6 class="mb-0 text-h5">{{ "duration" | upper }}</h6>
-              <p class="text-h6"> {{ .Params.Duration }}</p>
-            </div>
-            <div class="text-left">
-              <h6 class="mb-0 text-h5">{{  "weekly" | upper }}</h6>
-              <p class="text-h6"> {{ .Params.Weekly }}</p>
-            </div>
+            <h2 class="text-h1 my-5">{{ .Params.mtitle }}</h2>
+            <ul class="flex flex-col flex-wrap">
+              {{ range .Params.banner_points }}
+              <li class="list-item col-12">
+                <div class="flex gap-2">
+                  <i class="ph-duotone ph-check-circle" style="font-size:2rem; color:rgb(25, 246, 99)"></i>
+                  <p class="text-h6">{{ . }}</p>
+                </div>
+                
+              </li>
+              {{ end }}     
+        
+            </ul>
+
           </div>
         </div>
       
@@ -33,6 +33,12 @@
             <button class="btn btn-primary applyBtn" data-name="{{ .Title }}" data-toggle="modal" data-target="#registerModal">apply now</button>
           </div>
         </div>
+      </div>
+      
+      <div class="col-12 md:col-4 mb-1 bg-primary " >
+        <!-- course thumb -->
+        <img style="width: 100%;" src="{{ .Params.image | relURL }}"
+          class="img-fluid w-100">
       </div>
       <!-- border -->
       <div class="col-12  order-4">
@@ -60,7 +66,7 @@
         
         <div class="card-body">
           <div class="card-title bg-orange-400 py-3">
-            <h5 class="text-h5 text-center text-white">{{ .heading }}</h5>
+            <h5 class="text-h5 text-center text-primary">{{ .heading }}</h5>
           </div>
           <div class="card-text text-h6">
             <ul>

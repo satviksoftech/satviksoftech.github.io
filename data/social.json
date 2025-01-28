@@ -6,15 +6,11 @@
       "link": "https://www.facebook.com/"
     },
     {
-      "name": "twitter",
-      "icon": "fab fa-twitter",
-      "link": "https://twitter.com/"
+      "name": "youtube",
+      "icon": "fab fa-youtube",
+      "link": "https://www.youtube.com/@sathviksoftech209"
     },
-    {
-      "name": "github",
-      "icon": "fab fa-github",
-      "link": "https://www.github.com/"
-    },
+    
     {
       "name": "linkedin",
       "icon": "fab fa-linkedin",

@@ -62,7 +62,7 @@ content = "New batches start on 5th and 10th of every month"
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
+keywords = ["best coding classes", "best full stack training institute"]
 description = "Hugo & Tailwindcss Starter"
 author = "zeon.studio"
 image = "images/og-image.png"
