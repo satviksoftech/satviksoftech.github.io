@@ -9,6 +9,14 @@ bg_image: "/images/backgrounds/page-title.jpg"
 # meta description
 summary : "Gain deep understanding of programming and computer working through this beginner C Programming course."
 description : "Gain deep understanding of programming and computer working through this beginner C Programming course. This course includes hands-on problem solving, logic building, understanding computer internals, game programming and much more. The only live coding class in Hubli."
+banner_points:
+    - Deep and systematic content coverage
+    - Expert insights and Industry standards
+    - 100% Hands-on live classes
+    - Life long placement assistance
+    - Special focus on logic building
+    - Become capable to crack coding rounds
+
 keywords : 
   - "c classes hubli dharwad"
   - "c programming training in hubli dharwad"

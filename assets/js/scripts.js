@@ -9,6 +9,7 @@ window.onload = function(){
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
           .then(response => {
             alert('Thank You!', response)
+            form.reset()
             location.reload();
           })
           .catch(error => alert('Error!', error.message))

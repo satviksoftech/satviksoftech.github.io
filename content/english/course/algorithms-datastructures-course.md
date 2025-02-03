@@ -8,6 +8,14 @@ draft: false
 bg_image: "/images/backgrounds/page-title.jpg"
 # meta description
 description : "Data structures and algorithms are fundamental to any software and we offer best data structures course in Hubli Dharwad region. Best competitive coding class in hubli"
+banner_points:
+    - Deep and systematic content coverage
+    - Expert insights and Industry standards
+    - 100% Hands-on live classes
+    - Life long placement assistance
+    - Coverage of all major DSA techniques
+    - Learn to crack coding rounds
+
 keywords : 
     - "data structures course in hubli dharwad"
     - "data structures training in hubli dharwad"

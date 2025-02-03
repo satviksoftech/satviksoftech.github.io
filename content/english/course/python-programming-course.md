@@ -14,7 +14,18 @@ keywords :
   - "best python data science course in hubli"
   - "job guarateed python full stack course"
   - "no 1 python training institute hubli"
+  - "no 1 python course training institute hubli dharwad"
+  - "AI data science classes near me"
 
+
+
+banner_points:
+    - Deep and systematic content coverage
+    - Expert insights and Industry standards
+    - 100% Hands-on live classes
+    - Life long placement assistance
+    - Learn to build custom AI models
+    - Build strong job-ready portfolios
 
 # course thumbnail
 image: "images/courses/python.png"

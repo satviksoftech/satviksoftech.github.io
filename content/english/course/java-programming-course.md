@@ -21,6 +21,14 @@ keywords :
   - "java full stack classes in hubli dharwad"
   - "job guaranteed java training near me"
 
+banner_points:
+    - Deep and systematic content coverage
+    - Expert insights and Industry standards
+    - 100% Hands-on live classes
+    - Life long placement assistance
+    - Build actual apps not just clones
+    - Build strong job-ready portfolios
+
 # course thumbnail
 image: "images/courses/java-course.png"
 # taxonomy

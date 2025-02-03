@@ -16,6 +16,13 @@ keywords :
     - "web development classes in hubli dharwad"
     - "best web development training in hubli dharwad"
     - "job guaranteed web design and development training centers in hubli dharwad"
+banner_points:
+    - Deep and systematic content coverage
+    - Expert insights and Industry standards
+    - 100% Hands-on live classes
+    - Life long placement assistance
+    - Learn to design and build real web apps
+    - Build strong job-ready portfolios
 
 # course thumbnail
 image: "images/courses/web-programming.jpg"
