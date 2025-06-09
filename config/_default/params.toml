@@ -63,7 +63,7 @@ content = "New batches start on 5th and 10th of every month"
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
 keywords = ["best coding classes", "best full stack training institute"]
-description = "Hugo & Tailwindcss Starter"
+description = "Best coding classes for DSA, Java, Python, AI ML, web development"
 author = "zeon.studio"
 image = "images/og-image.png"
 
