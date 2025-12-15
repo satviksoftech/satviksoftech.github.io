@@ -1,7 +1,7 @@
 ---
 h1: "Python AI coding classes"
 title: "Best Data Science Python coding class in hubli |  Machine Learning | Data Science training institute"
-mtitle: "Python For Data Science"
+mtitle: "Python and Data Analytics"
 date: 2021-03-15T15:27:17+06:00
 draft: false
 # page title background image
@@ -34,7 +34,7 @@ category: "Programming"
 # teacher
 teacher: "Chandan Anand Purohit"
 # duration
-duration : "01 Month"
+duration : "02 Month"
 # weekly
 weekly : "12 hours"
 # course fee
@@ -54,10 +54,10 @@ syllabus:
     - heading: "Week 3: Becoming a professional coder"
       content: "OOP, Data Structures, Comprehension, Built-ins, packages, pygame"
 
-    - heading: "Becoming a Data Scientist"
-      content: "Jupyter, Numpy, Matplotlib, Pandas, Kaggle, Colab, Computer Vision, AI"
+    - heading: "Becoming a Data Scientist/Analyst"
+      content: "Jupyter, Numpy, Matplotlib, Pandas, Kaggle, Colab, Computer Vision, AI, Power BI"
     - heading: "Becoming a Software Developer"
-      content: "Building web applications, Flask framework, SQL, Project"
+      content: "Building web applications, Flask/FastAPI framework, SQL, Project"
 
 ---
 
