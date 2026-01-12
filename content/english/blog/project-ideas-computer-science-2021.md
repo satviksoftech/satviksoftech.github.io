@@ -1,7 +1,7 @@
 ---
 mtitle: "final year cs project ideas, Best computer science projects"
-title: "Cool project ideas for computer science - 2021"
-date: 2021-07-06T15:27:17+06:00
+title: "Cool project ideas for computer science - 2025"
+date: 2025-07-06T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
