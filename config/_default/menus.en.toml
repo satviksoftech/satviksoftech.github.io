@@ -12,17 +12,22 @@ pageRef = "/course"
 weight = 2
 
 [[main]]
-name = "Internship"
-pageRef = "/internships"
+name = "Coding-for-Kids"
+pageRef = "/courses-kids"
 weight = 3
 
 [[main]]
+name = "Internship"
+pageRef = "/internships"
 weight = 4
+
+[[main]]
+weight = 5
 name = "Blog"
 pageRef = "/blog"
 
 [[main]]
-weight = 5
+weight = 6
 name = "About"
 pageRef = "/about"
 
@@ -32,11 +37,6 @@ pageRef = "/about"
 name = "About"
 pageRef = "/about"
 weight = 1
-
-[[footer]]
-name = "Elements"
-pageRef = "/elements"
-weight = 2
 
 [[footer]]
 name = "Privacy Policy"

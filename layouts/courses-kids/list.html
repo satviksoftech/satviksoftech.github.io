@@ -1,0 +1,152 @@
+{{ define "main" }}
+    <style>
+                html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; overflow-x: hidden; }
+        .hero-gradient { background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); }
+        .card-hover:hover { transform: translateY(-5px); transition: all 0.3s ease; }
+        .img-overlay { background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6)); }
+        
+        /* Scroll Entrance Animations */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+    <section class="hero-gradient text-white py-24 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 text-white">Empowering Students for the AI Era</h1>
+            <p class="text-xl md:text-2xl mb-10 text-indigo-100">Interactive Coding, Math & AI classes for students aged 12+. Master the logic behind the intelligence.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#courses" class="bg-white text-indigo-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition">Explore Courses</a>
+                <a href="#enroll" class="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-indigo-600 transition">Book a Free Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Cards -->
+    <section id="courses" class="py-20 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-4">Our Curriculum</h2>
+            <p class="text-gray-600 mb-12 max-w-2xl mx-auto">Four foundational pillars designed to turn curious students into expert creators.</p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Python Card -->
+                <div class="overflow-hidden rounded-2xl bg-white shadow-lg border card-hover">
+                    <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=500&q=80" alt="Python Programming" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="text-blue-600 font-bold text-sm uppercase mb-2">Coding</div>
+                        <h3 class="text-xl font-bold mb-3">Python Pro</h3>
+                        <p class="text-gray-600 text-sm">Build games and apps while mastering the fundamentals of logic and data structures.</p>
+                    </div>
+                </div>
+
+                <!-- Web Dev Card -->
+                <div class="overflow-hidden rounded-2xl bg-white shadow-lg border card-hover">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=500&q=80" alt="Web Development" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="text-green-600 font-bold text-sm uppercase mb-2">Creative</div>
+                        <h3 class="text-xl font-bold mb-3">Web Design</h3>
+                        <p class="text-gray-600 text-sm">From HTML to responsive layouts. Launch your portfolio and share your ideas with the world.</p>
+                    </div>
+                </div>
+
+                <!-- AI Card -->
+                <div class="overflow-hidden rounded-2xl bg-white shadow-lg border card-hover">
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=500&q=80" alt="Artificial Intelligence" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="text-purple-600 font-bold text-sm uppercase mb-2">Advanced</div>
+                        <h3 class="text-xl font-bold mb-3">AI & ML</h3>
+                        <p class="text-gray-600 text-sm">Understand Neural Networks and build your first Machine Learning models using Python.</p>
+                    </div>
+                </div>
+
+                <!-- Math Card -->
+                <div class="overflow-hidden rounded-2xl bg-white shadow-lg border card-hover">
+                    <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=500&q=80" alt="Mathematics" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="text-red-600 font-bold text-sm uppercase mb-2">Foundations</div>
+                        <h3 class="text-xl font-bold mb-3">Logic & Math</h3>
+                        <p class="text-gray-600 text-sm">The math behind the machine. Master algebra and geometry through a programmer's lens.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80" alt="Student learning" class="rounded-3xl shadow-2xl">
+                    <div class="absolute -bottom-6 -right-6 bg-indigo-600 text-white p-6 rounded-2xl hidden lg:block">
+                        <p class="text-2xl font-bold italic">"Coding is the new literacy."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 md:pl-12">
+                <h2 class="text-3xl font-bold mb-6 text-gray-800">Why start coding and AI at 12?</h2>
+                <p class="text-lg text-gray-600 mb-6">
+                    Middle and high school is the perfect window to develop computational thinking. Our curriculum bridges the gap between school mathematics and real-world technology like <strong>Generative AI</strong> and <strong>Data Science</strong>.
+                </p>
+                <ul class="space-y-4">
+                    <li class="flex items-center text-gray-700">
+                        <span class="bg-indigo-100 text-indigo-600 p-1 rounded-full mr-3">✔</span> Project-based learning (AI Chatbots, Web Apps)
+                    </li>
+                    <li class="flex items-center text-gray-700">
+                        <span class="bg-indigo-100 text-indigo-600 p-1 rounded-full mr-3">✔</span> Small groups (Max 8 students per batch)
+                    </li>
+                    <li class="flex items-center text-gray-700">
+                        <span class="bg-indigo-100 text-indigo-600 p-1 rounded-full mr-3">✔</span> Integrated Math-in-AI modules
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / CTA Form -->
+    <section id="enroll" class="py-20 bg-white">
+        <div class="container mx-auto px-6 max-w-3xl">
+            <div class="bg-white border rounded-3xl shadow-2xl p-8 md:p-12 relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-full h-2 bg-indigo-600"></div>
+                <h2 class="text-3xl font-bold mb-4 text-center">Start Your Journey</h2>
+                <p class="text-gray-600 text-center mb-10">Sign up for a free orientation session on AI and Coding.</p>
+                
+                <form id="contact-form" method="POST" class="space-y-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-semibold mb-2">Student Name</label>
+                            <input type="text" class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none" placeholder="John Doe" name="name" required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold mb-2">Phone</label>
+                            <input class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none" name="phone" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold mb-2">Parent/Guardian Email</label>
+                        <input type="email" name="email" class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none" placeholder="parent@example.com" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold mb-2">Interested Course</label>
+                        <select class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none" name="course">
+                            <option>Elite Bundle (Math + Coding + AI)</option>
+                            <option>AI & Machine Learning Foundations</option>
+                            <option>Python for Beginners</option>
+                            <option>Modern Web Development</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="w-full bg-indigo-600 text-white py-4 rounded-lg font-bold text-lg hover:bg-indigo-700 transition shadow-lg" id="contactBtn">Get Course Details</button>
+                </form>
+                <div id="successMessage" class="hidden mt-6 p-4 bg-green-100 text-green-700 rounded-lg text-center font-semibold">
+                    🎉 Thank you! We'll contact you within 24 hours to schedule your demo.
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}
